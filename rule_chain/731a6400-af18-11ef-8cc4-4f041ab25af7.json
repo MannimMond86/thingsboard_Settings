@@ -1,0 +1,110 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Check is ESP32 firmware synced"
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "732e3a21-af18-11ef-8cc4-4f041ab25af7"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "731a6400-af18-11ef-8cc4-4f041ab25af7"
+    },
+    "name" : "Check is ESP32 firmware synced",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 0,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 1,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "layoutX" : 273,
+        "layoutY" : 423
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "updateAttributesOnlyOnValueChange" : false,
+        "notifyDevice" : true,
+        "sendAttributesUpdatedNotification" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "732e3a20-af18-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Save 'fwStateIsSynced' attribute",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 125,
+        "layoutY" : 225
+      },
+      "configuration" : {
+        "clientAttributeNames" : [ "currentFwVer" ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ "lastTargetFwVer" ],
+        "latestTsKeyNames" : [ ],
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "732e3a21-af18-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Add attributes to metadata",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 200,
+        "layoutY" : 325
+      },
+      "configuration" : {
+        "jsScript" : "msg.fwStateIsSynced = false;\n\nif (metadata.cs_currentFwVer) {\n    msg.fwStateIsSynced = metadata.cs_currentFwVer === metadata.ss_lastTargetFwVer;\n}\n\nreturn {msg: msg, metadata: metadata, msgType: 'POST_ATTRIBUTES_REQUEST'};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "732e6130-af18-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Update server attribute 'fwStateIsSynced'",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

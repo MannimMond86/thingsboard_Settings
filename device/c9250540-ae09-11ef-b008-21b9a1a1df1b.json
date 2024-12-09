@@ -1,0 +1,120 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c91267a0-ae09-11ef-b008-21b9a1a1df1b"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "c9250540-ae09-11ef-b008-21b9a1a1df1b"
+    },
+    "label" : null,
+    "name" : "HVAC",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "hvac"
+  },
+  "credentials" : {
+    "credentialsId" : "PS2kKltTYOESrpNzOXHK",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "c91797c0-ae09-11ef-b008-21b9a1a1df1b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c9250540-ae09-11ef-b008-21b9a1a1df1b"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 204002522
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1732999846781,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1732999846781,
+      "longValue" : 1732999846779,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1732999206293,
+      "longValue" : 1732999203260,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1732998841758,
+      "longValue" : 1732998841758,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1732999203301,
+      "longValue" : 1732999203301,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "type",
+      "lastUpdateTs" : 1732854252461,
+      "longValue" : null,
+      "strValue" : "hvac"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.35,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1732854252461,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.48,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1732854252461,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

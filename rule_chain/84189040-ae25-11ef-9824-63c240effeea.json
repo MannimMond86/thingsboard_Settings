@@ -1,0 +1,251 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "e77d1e40-ae2e-11ef-8cc4-4f041ab25af7"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "84189040-ae25-11ef-9824-63c240effeea"
+    },
+    "name" : "RPC Call Smartplug",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 4,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 375,
+        "layoutY" : 150
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e77d1e40-ae2e-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Message Type Switch",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 779,
+        "layoutY" : 151
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e77d1e41-ae2e-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Save Time Series",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1072,
+        "layoutY" : 28
+      },
+      "configuration" : {
+        "deviceRelationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "relationType" : "Contains",
+          "deviceTypes" : [ "default" ]
+        },
+        "tellFailureIfAbsent" : true,
+        "fetchTo" : "METADATA",
+        "clientAttributeNames" : [ "SmartPlug_State" ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e77d4550-ae2e-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Fetch SmartPlug State",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetDeviceAttrNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1376,
+        "layoutY" : 28
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        },
+        "originatorSource" : "CUSTOMER",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "preserveOriginatorIfCustomer" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e77d6c60-ae2e-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Create New Telemetry",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1690,
+        "layoutY" : 28
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e77d6c61-ae2e-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Save Time Series",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1090,
+        "layoutY" : 319
+      },
+      "configuration" : {
+        "deviceRelationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "relationType" : "Contains",
+          "deviceTypes" : [ "default" ],
+          "fetchLastLevelOnly" : false
+        },
+        "tellFailureIfAbsent" : true,
+        "fetchTo" : "METADATA",
+        "clientAttributeNames" : [ "Power", "Voltage" ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e77d6c62-ae2e-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "Fetch SmartPlug Data",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetDeviceAttrNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1366,
+        "layoutY" : 309
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "var newMsg = {};\n var value = Math.abs(msg.turbineDirection - metadata.windDirection);\n if ((value < 180 && msg.turbineDirection < metadata.windDirection)||\n     (value > 180 && msg.turbineDirection > metadata.windDirection)) {\n     newMsg.method = 'spinLeft';\n }\n if ((value <= 180 && msg.turbineDirection > metadata.windDirection)||\n     (value >= 180 && msg.turbineDirection < metadata.windDirection)) {\n     newMsg.method = 'spinRight';\n }\n if(newMsg.method == 'spinLeft' || 'spinRight'){\n     msgType = 'RPC message';\n }\n newMsg.params = Math.round(value * 100) / 100;\n return {msg: newMsg, metadata: metadata, msgType: msgType}; "
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e77d6c63-ae2e-11ef-8cc4-4f041ab25af7"
+      },
+      "name" : "New RPC Message.",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
