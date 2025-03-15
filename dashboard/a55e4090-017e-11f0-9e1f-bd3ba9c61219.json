@@ -2333,7 +2333,7 @@
             "settings" : {
               "widgetTitle" : "",
               "showResultMessage" : true,
-              "latKeyName" : "Power",
+              "latKeyName" : "power",
               "lngKeyName" : "brightness",
               "showGetLocation" : false,
               "enableHighAccuracy" : false,
