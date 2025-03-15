@@ -104,32 +104,40 @@
                 "usePostProcessing" : null,
                 "postFuncBody" : null
               }, {
-                "name" : "humidity",
+                "name" : "brightness",
                 "type" : "timeseries",
-                "label" : "humidity",
-                "color" : "#f44336",
+                "label" : "brightness",
+                "color" : "#9c27b0",
                 "settings" : { },
-                "_hash" : 0.01590877141290692,
-                "aggregationType" : "NONE",
-                "units" : null,
-                "decimals" : 0,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "_hash" : 0.3805788082329533
               }, {
-                "name" : "latitude",
+                "name" : "contrast",
                 "type" : "timeseries",
-                "label" : "latitude",
-                "color" : "#ffc107",
+                "label" : "contrast",
+                "color" : "#8bc34a",
                 "settings" : { },
-                "_hash" : 0.6101495036716489
+                "_hash" : 0.254006746570304
               }, {
-                "name" : "longitude",
+                "name" : "device_ip",
                 "type" : "timeseries",
-                "label" : "longitude",
-                "color" : "#607d8b",
+                "label" : "device_ip",
+                "color" : "#3f51b5",
                 "settings" : { },
-                "_hash" : 0.7277473008965614
+                "_hash" : 0.4668250493318904
+              }, {
+                "name" : "power",
+                "type" : "timeseries",
+                "label" : "power",
+                "color" : "#e91e63",
+                "settings" : { },
+                "_hash" : 0.055986348102744055
+              }, {
+                "name" : "sharpness",
+                "type" : "timeseries",
+                "label" : "sharpness",
+                "color" : "#ffeb3b",
+                "settings" : { },
+                "_hash" : 0.8437816610165778
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -2923,7 +2931,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "8db1d230-00e4-11f0-9e1f-bd3ba9c61219", "e2c73d20-00c9-11f0-9e1f-bd3ba9c61219", "7f043c60-0179-11f0-9e1f-bd3ba9c61219", "8b5cc9f0-0179-11f0-9e1f-bd3ba9c61219", "8b2e9df0-018d-11f0-9e1f-bd3ba9c61219" ]
+            "entityList" : [ "8db1d230-00e4-11f0-9e1f-bd3ba9c61219", "e2c73d20-00c9-11f0-9e1f-bd3ba9c61219", "7f043c60-0179-11f0-9e1f-bd3ba9c61219", "8b5cc9f0-0179-11f0-9e1f-bd3ba9c61219", "8b2e9df0-018d-11f0-9e1f-bd3ba9c61219", "3f0f94b0-01a6-11f0-9e1f-bd3ba9c61219", "f398cda0-01a3-11f0-9e1f-bd3ba9c61219" ]
           }
         },
         "057408f0-5a28-765e-fb5c-c008d43f6d17" : {
