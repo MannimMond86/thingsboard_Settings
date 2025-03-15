@@ -2077,19 +2077,61 @@
                 "settings" : { },
                 "_hash" : 0.37504199071535704
               }, {
-                "name" : "longitude",
+                "name" : "brightness",
                 "type" : "timeseries",
-                "label" : "longitude",
+                "label" : "brightness",
                 "color" : "#ffeb3b",
                 "settings" : { },
-                "_hash" : 0.717354752777877
+                "_hash" : 0.14802937093357094
               }, {
-                "name" : "latitude",
+                "name" : "contrast",
                 "type" : "timeseries",
-                "label" : "latitude",
+                "label" : "contrast",
                 "color" : "#03a9f4",
                 "settings" : { },
-                "_hash" : 0.29798011253888523
+                "_hash" : 0.20502274664634124
+              }, {
+                "name" : "device_ip",
+                "type" : "timeseries",
+                "label" : "device_ip",
+                "color" : "#ff9800",
+                "settings" : { },
+                "_hash" : 0.5597772145785713
+              }, {
+                "name" : "power",
+                "type" : "timeseries",
+                "label" : "power",
+                "color" : "#673ab7",
+                "settings" : { },
+                "_hash" : 0.9358425534499928
+              }, {
+                "name" : "sharpness",
+                "type" : "timeseries",
+                "label" : "sharpness",
+                "color" : "#cddc39",
+                "settings" : { },
+                "_hash" : 0.19875661388398225
+              }, {
+                "name" : "device_ip",
+                "type" : "attribute",
+                "label" : "device_ip 2",
+                "color" : "#009688",
+                "settings" : { },
+                "_hash" : 0.15102994249057589
+              }, {
+                "name" : "contrast",
+                "type" : "attribute",
+                "label" : "contrast 2",
+                "color" : "#795548",
+                "settings" : { },
+                "_hash" : 0.15810862006326687
+              }, {
+                "name" : "sharpness",
+                "type" : "attribute",
+                "label" : "sharpness 2",
+                "color" : "#00bcd4",
+                "settings" : { },
+                "_hash" : 0.0025770731604732866
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
