@@ -1693,6 +1693,13 @@
                 "color" : "#00bcd4",
                 "settings" : { },
                 "_hash" : 0.0025770731604732866
+              }, {
+                "name" : "device_number",
+                "type" : "attribute",
+                "label" : "device_number",
+                "color" : "#ff5722",
+                "settings" : { },
+                "_hash" : 0.7100969856931794
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
