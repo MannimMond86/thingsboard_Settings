@@ -2028,19 +2028,19 @@
               "name" : "",
               "entityAliasId" : "057408f0-5a28-765e-fb5c-c008d43f6d17",
               "dataKeys" : [ {
-                "name" : "contrast",
-                "type" : "timeseries",
-                "label" : "contrast",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.2033319882071365
-              }, {
                 "name" : "device_ip",
-                "type" : "timeseries",
+                "type" : "attribute",
                 "label" : "device_ip",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.9636548891139811
+                "_hash" : 0.6328635755846632
+              }, {
+                "name" : "device_number",
+                "type" : "attribute",
+                "label" : "device_number",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.6170352209242425
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -2089,8 +2089,8 @@
               "showGetLocation" : true,
               "enableHighAccuracy" : false,
               "showLabel" : true,
-              "latLabel" : "Contrast",
-              "lngLabel" : "Device IP",
+              "latLabel" : "Device IP",
+              "lngLabel" : "Device Number",
               "inputFieldsAlignment" : "column",
               "isLatRequired" : true,
               "isLngRequired" : true,
