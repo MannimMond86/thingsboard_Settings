@@ -2486,19 +2486,19 @@
               "name" : "",
               "entityAliasId" : "057408f0-5a28-765e-fb5c-c008d43f6d17",
               "dataKeys" : [ {
-                "name" : "latitude",
+                "name" : "power",
                 "type" : "attribute",
-                "label" : "latitude",
+                "label" : "power",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.2884664607579064
+                "_hash" : 0.9688050485612463
               }, {
-                "name" : "longitude",
+                "name" : "brightness",
                 "type" : "attribute",
-                "label" : "longitude",
+                "label" : "brightness",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.38422606826881567
+                "_hash" : 0.5593468483071584
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -2542,8 +2542,8 @@
             "settings" : {
               "widgetTitle" : "",
               "showResultMessage" : true,
-              "latKeyName" : "latitude",
-              "lngKeyName" : "longitude",
+              "latKeyName" : "Power",
+              "lngKeyName" : "brightness",
               "showGetLocation" : true,
               "enableHighAccuracy" : false,
               "showLabel" : true,
