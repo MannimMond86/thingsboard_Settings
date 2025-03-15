@@ -1946,12 +1946,19 @@
               "name" : "",
               "entityAliasId" : "057408f0-5a28-765e-fb5c-c008d43f6d17",
               "dataKeys" : [ {
-                "name" : "memory_percent",
-                "type" : "timeseries",
-                "label" : "memory_percent",
+                "name" : "sharpness",
+                "type" : "attribute",
+                "label" : "sharpness",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.2385245052074043
+                "_hash" : 0.7225645387674875
+              }, {
+                "name" : "contrast",
+                "type" : "attribute",
+                "label" : "contrast",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.5193255314631939
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1995,19 +2002,19 @@
             "settings" : {
               "widgetTitle" : "",
               "showResultMessage" : true,
-              "latKeyName" : "latitude",
-              "lngKeyName" : "longitude",
+              "latKeyName" : "sharpness",
+              "lngKeyName" : "contrast",
               "showGetLocation" : true,
               "enableHighAccuracy" : false,
               "showLabel" : true,
-              "latLabel" : "",
-              "lngLabel" : "",
+              "latLabel" : "Sharpness",
+              "lngLabel" : "Contrast",
               "inputFieldsAlignment" : "column",
               "isLatRequired" : true,
               "isLngRequired" : true,
               "requiredErrorMessage" : ""
             },
-            "title" : "Update shared location attribute",
+            "title" : "Update Device",
             "dropShadow" : true,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -2018,7 +2025,12 @@
             "useDashboardTimewindow" : true,
             "showLegend" : false,
             "actions" : { },
-            "displayTimewindow" : true
+            "displayTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,
