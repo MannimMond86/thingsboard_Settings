@@ -1,0 +1,158 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e3de5ef0-0178-11f0-9e1f-bd3ba9c61219"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "8b2e9df0-018d-11f0-9e1f-bd3ba9c61219"
+    },
+    "label" : "samsung_mdc",
+    "name" : "samsung_mdc_device_long",
+    "softwareId" : null,
+    "type" : "samsung_mdc_device_profile"
+  },
+  "credentials" : {
+    "credentialsId" : "Z4jI4na1RbtgONsE2J3v",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1742037050466,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1742046240555,
+      "longValue" : 1742046238800,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1742043786074,
+      "longValue" : 1742043786074,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1742043784183,
+      "longValue" : 1742043784183,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 54.3176,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1742037582471,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 10.1705,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1742037582471,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "brightness",
+      "lastUpdateTs" : 1742043928370,
+      "longValue" : 100,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "contrast",
+      "lastUpdateTs" : 1742043857602,
+      "longValue" : 100,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1742037922325,
+      "longValue" : 35,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1742037922325,
+      "longValue" : 17,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model_number",
+      "lastUpdateTs" : 1742043982024,
+      "longValue" : null,
+      "strValue" : "null"
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "power",
+      "lastUpdateTs" : 1742043849614,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "serial_number",
+      "lastUpdateTs" : 1742044000652,
+      "longValue" : null,
+      "strValue" : "null"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sharpness",
+      "lastUpdateTs" : 1742043842736,
+      "longValue" : 100,
+      "strValue" : null
+    } ]
+  }
+}
