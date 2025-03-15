@@ -2456,7 +2456,7 @@
           "col" : 0,
           "id" : "eb116231-b085-59b8-971e-d7a32aa5f03c"
         },
-        "1b6d8774-36eb-3898-6cc3-ec3ad4e22713" : {
+        "edd2a537-0304-832a-376e-fadbb2828d22" : {
           "typeFullFqn" : "system.input_widgets.update_shared_location_attribute",
           "type" : "latest",
           "sizeX" : 7.5,
@@ -2465,37 +2465,21 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : "",
-              "entityAliasId" : "462a1a99-6e94-672c-defa-545c64e11178",
+              "entityAliasId" : "057408f0-5a28-765e-fb5c-c008d43f6d17",
               "dataKeys" : [ {
-                "name" : "brightness",
-                "type" : "shared",
-                "label" : "Brightness",
-                "color" : "#ffeb3b",
-                "settings" : {
-                  "min" : 0,
-                  "max" : 100
-                },
-                "_hash" : 0.123456789
-              }, {
-                "name" : "sharpness",
-                "type" : "shared",
-                "label" : "Sharpness",
-                "color" : "#4caf50",
-                "settings" : {
-                  "min" : 0,
-                  "max" : 100
-                },
-                "_hash" : 0.987654321
-              }, {
                 "name" : "contrast",
-                "type" : "shared",
-                "label" : "Contrast",
+                "type" : "timeseries",
+                "label" : "contrast",
                 "color" : "#2196f3",
-                "settings" : {
-                  "min" : 0,
-                  "max" : 100
-                },
-                "_hash" : 0.543210987
+                "settings" : { },
+                "_hash" : 0.2033319882071365
+              }, {
+                "name" : "device_ip",
+                "type" : "timeseries",
+                "label" : "device_ip",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.9636548891139811
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -2518,8 +2502,8 @@
                 "interval" : 1000,
                 "timewindowMs" : 60000,
                 "fixedTimewindow" : {
-                  "startTimeMs" : 1741957024430,
-                  "endTimeMs" : 1742043424430
+                  "startTimeMs" : 1741962047157,
+                  "endTimeMs" : 1742048447157
                 },
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
@@ -2537,13 +2521,21 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
             "settings" : {
-              "widgetTitle" : "Adjust Display Settings",
+              "widgetTitle" : "",
               "showResultMessage" : true,
-              "inputFieldsAlignment" : "column",
+              "latKeyName" : "contrast",
+              "lngKeyName" : "device_ip",
+              "showGetLocation" : true,
+              "enableHighAccuracy" : false,
               "showLabel" : true,
-              "enableHighAccuracy" : false
+              "latLabel" : "Contrast",
+              "lngLabel" : "Device IP",
+              "inputFieldsAlignment" : "column",
+              "isLatRequired" : true,
+              "isLngRequired" : true,
+              "requiredErrorMessage" : ""
             },
-            "title" : "Update Shared Display Attributes",
+            "title" : "Update shared location attribute",
             "dropShadow" : true,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -2558,7 +2550,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "1b6d8774-36eb-3898-6cc3-ec3ad4e22713"
+          "id" : "edd2a537-0304-832a-376e-fadbb2828d22"
         }
       },
       "states" : {
@@ -2683,11 +2675,11 @@
                   "row" : 17,
                   "col" : 14
                 },
-                "1b6d8774-36eb-3898-6cc3-ec3ad4e22713" : {
+                "edd2a537-0304-832a-376e-fadbb2828d22" : {
                   "sizeX" : 7,
                   "sizeY" : 3,
-                  "row" : 21,
-                  "col" : 0
+                  "row" : 13,
+                  "col" : 9
                 }
               },
               "gridSettings" : {
