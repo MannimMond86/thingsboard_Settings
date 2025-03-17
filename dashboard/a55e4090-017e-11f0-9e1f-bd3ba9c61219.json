@@ -333,7 +333,7 @@
               "name" : "",
               "entityAliasId" : "057408f0-5a28-765e-fb5c-c008d43f6d17",
               "dataKeys" : [ {
-                "name" : "temperature",
+                "name" : "cpu_percent",
                 "type" : "timeseries",
                 "label" : "Temperature",
                 "color" : "#2196f3",
@@ -406,11 +406,11 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.46492141583679736,
+                "_hash" : 0.4030960766893963,
                 "units" : "°C",
                 "decimals" : 0
               }, {
-                "name" : "humidity",
+                "name" : "memory_percent",
                 "type" : "timeseries",
                 "label" : "humidity",
                 "color" : "#4caf50",
@@ -483,7 +483,7 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.6745859599211912,
+                "_hash" : 0.7938166321719096,
                 "units" : "%",
                 "decimals" : 0
               } ],
