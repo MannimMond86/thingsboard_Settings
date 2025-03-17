@@ -2171,7 +2171,7 @@
             "type" : "entityList",
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
-            "entityList" : [ "8db1d230-00e4-11f0-9e1f-bd3ba9c61219", "e2c73d20-00c9-11f0-9e1f-bd3ba9c61219", "7f043c60-0179-11f0-9e1f-bd3ba9c61219", "8b5cc9f0-0179-11f0-9e1f-bd3ba9c61219", "8b2e9df0-018d-11f0-9e1f-bd3ba9c61219", "3f0f94b0-01a6-11f0-9e1f-bd3ba9c61219", "f398cda0-01a3-11f0-9e1f-bd3ba9c61219" ]
+            "entityList" : [ "8db1d230-00e4-11f0-9e1f-bd3ba9c61219", "e2c73d20-00c9-11f0-9e1f-bd3ba9c61219", "7f043c60-0179-11f0-9e1f-bd3ba9c61219", "8b5cc9f0-0179-11f0-9e1f-bd3ba9c61219", "8b2e9df0-018d-11f0-9e1f-bd3ba9c61219", "3f0f94b0-01a6-11f0-9e1f-bd3ba9c61219", "f398cda0-01a3-11f0-9e1f-bd3ba9c61219", "17d241d1-0314-11f0-9e1f-bd3ba9c61219", "17d241d0-0314-11f0-9e1f-bd3ba9c61219", "17d268e0-0314-11f0-9e1f-bd3ba9c61219", "17d30520-0314-11f0-9e1f-bd3ba9c61219", "17d2b701-0314-11f0-9e1f-bd3ba9c61219" ]
           }
         },
         "057408f0-5a28-765e-fb5c-c008d43f6d17" : {
