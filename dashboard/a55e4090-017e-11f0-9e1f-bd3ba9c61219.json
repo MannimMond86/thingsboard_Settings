@@ -407,7 +407,7 @@
                   }
                 },
                 "_hash" : 0.4030960766893963,
-                "units" : "°C",
+                "units" : "%",
                 "decimals" : 0,
                 "aggregationType" : null,
                 "funcBody" : null,
@@ -800,7 +800,7 @@
             "widgetStyle" : { },
             "widgetCss" : "",
             "pageSize" : 1024,
-            "units" : "",
+            "units" : "%",
             "decimals" : null,
             "noDataDisplayMessage" : "",
             "timewindowStyle" : {
