@@ -1064,6 +1064,182 @@
           "row" : 0,
           "col" : 0,
           "id" : "e8c2d95d-9958-75c8-f3ad-192e2a56435a"
+        },
+        "2646862a-3902-b4a0-4dee-03bc49492561" : {
+          "typeFullFqn" : "system.gpio_widgets.raspberry_pi_gpio_control",
+          "type" : "rpc",
+          "sizeX" : 6,
+          "sizeY" : 10.5,
+          "config" : {
+            "targetDeviceAliases" : [ ],
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "switchPanelBackgroundColor" : "#FFBD43",
+              "gpioList" : [ {
+                "pin" : 1,
+                "label" : "1",
+                "row" : 1,
+                "col" : 0
+              }, {
+                "pin" : 2,
+                "label" : "2",
+                "row" : 2,
+                "col" : 0
+              }, {
+                "pin" : 3,
+                "label" : "3",
+                "row" : 3,
+                "col" : 0
+              }, {
+                "pin" : 4,
+                "label" : "4",
+                "row" : 4,
+                "col" : 0
+              }, {
+                "pin" : 5,
+                "label" : "5",
+                "row" : 5,
+                "col" : 0
+              }, {
+                "pin" : 6,
+                "label" : "6",
+                "row" : 6,
+                "col" : 0
+              }, {
+                "pin" : 7,
+                "label" : "7",
+                "row" : 7,
+                "col" : 0
+              }, {
+                "pin" : 6,
+                "label" : "8",
+                "row" : 8,
+                "col" : 0
+              }, {
+                "pin" : 7,
+                "label" : "9",
+                "row" : 7,
+                "col" : 0
+              }, {
+                "pin" : 10,
+                "label" : "10",
+                "row" : 10,
+                "col" : 0
+              }, {
+                "pin" : 11,
+                "label" : "11",
+                "row" : 11,
+                "col" : 0
+              }, {
+                "pin" : 12,
+                "label" : "12",
+                "row" : 12,
+                "col" : 0
+              }, {
+                "pin" : 12,
+                "label" : "13",
+                "row" : 13,
+                "col" : 0
+              }, {
+                "pin" : 14,
+                "label" : "14",
+                "row" : 14,
+                "col" : 0
+              }, {
+                "pin" : 15,
+                "label" : "1",
+                "row" : 1,
+                "col" : 1
+              }, {
+                "pin" : 16,
+                "label" : "2",
+                "row" : 2,
+                "col" : 1
+              }, {
+                "pin" : 17,
+                "label" : "3",
+                "row" : 3,
+                "col" : 1
+              }, {
+                "pin" : 18,
+                "label" : "4",
+                "row" : 4,
+                "col" : 1
+              }, {
+                "pin" : 19,
+                "label" : "5",
+                "row" : 5,
+                "col" : 1
+              }, {
+                "pin" : 20,
+                "label" : "6",
+                "row" : 6,
+                "col" : 1
+              }, {
+                "pin" : 21,
+                "label" : "7",
+                "row" : 7,
+                "col" : 1
+              }, {
+                "pin" : 22,
+                "label" : "8",
+                "row" : 8,
+                "col" : 1
+              }, {
+                "pin" : 23,
+                "label" : "9",
+                "row" : 9,
+                "col" : 1
+              }, {
+                "pin" : 24,
+                "label" : "10",
+                "row" : 10,
+                "col" : 1
+              }, {
+                "pin" : 25,
+                "label" : "11",
+                "row" : 11,
+                "col" : 1
+              }, {
+                "pin" : 26,
+                "label" : "12",
+                "row" : 12,
+                "col" : 1
+              }, {
+                "pin" : 27,
+                "label" : "13",
+                "row" : 13,
+                "col" : 1
+              }, {
+                "pin" : 28,
+                "label" : "14",
+                "row" : 14,
+                "col" : 1
+              } ],
+              "requestTimeout" : 500,
+              "gpioStatusRequest" : {
+                "method" : "getGpioStatus",
+                "paramsBody" : "{}"
+              },
+              "gpioStatusChangeRequest" : {
+                "method" : "setGpioStatus",
+                "paramsBody" : "{\n   \"pin\": \"{$pin}\",\n   \"enabled\": \"{$enabled}\"\n}"
+              },
+              "parseGpioStatusFunction" : "return body[pin] === true;"
+            },
+            "title" : "Raspberry Pi GPIO Control",
+            "datasources" : [ ],
+            "targetDevice" : {
+              "type" : "device",
+              "deviceId" : "f2237b70-0403-11f0-9e1f-bd3ba9c61219"
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "2646862a-3902-b4a0-4dee-03bc49492561"
         }
       },
       "states" : {
@@ -1102,6 +1278,12 @@
                   "sizeX" : 14,
                   "sizeY" : 4,
                   "row" : 6,
+                  "col" : 12
+                },
+                "2646862a-3902-b4a0-4dee-03bc49492561" : {
+                  "sizeX" : 6,
+                  "sizeY" : 10,
+                  "row" : 14,
                   "col" : 12
                 }
               },
