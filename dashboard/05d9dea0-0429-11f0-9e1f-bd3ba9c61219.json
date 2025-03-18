@@ -360,7 +360,7 @@
                 "viewFormat" : "grid",
                 "autoFillHeight" : false,
                 "rowHeight" : 70,
-                "backgroundImageUrl" : null,
+                "backgroundImageUrl" : "tb-image;/api/images/tenant/Bildschirmfoto vom 2025-03-18 19-48-53.png",
                 "mobileAutoFillHeight" : false,
                 "mobileRowHeight" : 70
               }
