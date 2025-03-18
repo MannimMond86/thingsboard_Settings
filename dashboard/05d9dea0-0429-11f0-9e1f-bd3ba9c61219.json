@@ -1077,7 +1077,7 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "0px",
             "settings" : {
-              "switchPanelBackgroundColor" : "#FFBD43",
+              "switchPanelBackgroundColor" : "#FF7143",
               "gpioList" : [ {
                 "pin" : 1,
                 "label" : "1",
@@ -1114,14 +1114,14 @@
                 "row" : 7,
                 "col" : 0
               }, {
-                "pin" : 6,
+                "pin" : 8,
                 "label" : "8",
                 "row" : 8,
                 "col" : 0
               }, {
-                "pin" : 7,
+                "pin" : 9,
                 "label" : "9",
-                "row" : 7,
+                "row" : 9,
                 "col" : 0
               }, {
                 "pin" : 10,
