@@ -983,6 +983,70 @@
                 "settings" : { },
                 "_hash" : 0.05692648668645672,
                 "decimals" : 0
+              }, {
+                "name" : "C_7",
+                "type" : "timeseries",
+                "label" : "C_7",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.7483980137333259,
+                "decimals" : 0
+              }, {
+                "name" : "C_8",
+                "type" : "timeseries",
+                "label" : "C_8",
+                "color" : "#3f51b5",
+                "settings" : { },
+                "_hash" : 0.28658239128452867,
+                "decimals" : 0
+              }, {
+                "name" : "C_9",
+                "type" : "timeseries",
+                "label" : "C_9",
+                "color" : "#e91e63",
+                "settings" : { },
+                "_hash" : 0.7370051415942362,
+                "decimals" : 0
+              }, {
+                "name" : "C_10",
+                "type" : "timeseries",
+                "label" : "C_10",
+                "color" : "#ffeb3b",
+                "settings" : { },
+                "_hash" : 0.03898574812713895,
+                "decimals" : 0
+              }, {
+                "name" : "C_11",
+                "type" : "timeseries",
+                "label" : "C_11",
+                "color" : "#03a9f4",
+                "settings" : { },
+                "_hash" : 0.06131725323814319,
+                "decimals" : 0
+              }, {
+                "name" : "C_12",
+                "type" : "timeseries",
+                "label" : "C_12",
+                "color" : "#ff9800",
+                "settings" : { },
+                "_hash" : 0.49950556921096645,
+                "decimals" : 0
+              }, {
+                "name" : "C_13",
+                "type" : "timeseries",
+                "label" : "C_13",
+                "color" : "#673ab7",
+                "settings" : { },
+                "_hash" : 0.7792332716604771,
+                "decimals" : 0
+              }, {
+                "name" : "C_14",
+                "type" : "timeseries",
+                "label" : "C_14",
+                "color" : "#cddc39",
+                "settings" : { },
+                "_hash" : 0.5934390900559341,
+                "decimals" : 0
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
