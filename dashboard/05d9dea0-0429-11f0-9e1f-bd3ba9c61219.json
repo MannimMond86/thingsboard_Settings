@@ -346,7 +346,7 @@
                   "sizeY" : 5,
                   "mobileHeight" : null,
                   "row" : 0,
-                  "col" : 0
+                  "col" : 13
                 }
               },
               "gridSettings" : {
@@ -355,7 +355,7 @@
                 "columns" : 24,
                 "margin" : 10,
                 "outerMargin" : true,
-                "backgroundSizeMode" : "100%",
+                "backgroundSizeMode" : "contain",
                 "minColumns" : 24,
                 "viewFormat" : "grid",
                 "autoFillHeight" : false,
