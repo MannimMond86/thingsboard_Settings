@@ -1376,11 +1376,13 @@
                 "id" : "2743ab8d-95fb-43f0-1843-4fc313cf6280",
                 "name" : "onClick",
                 "icon" : "more_horiz",
-                "type" : "updateDashboardState",
+                "type" : "doNothing",
                 "targetDashboardStateId" : null,
                 "openRightLayout" : false,
                 "setEntityId" : true,
-                "stateEntityParamName" : null
+                "stateEntityParamName" : null,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false
               } ]
             }
           },
