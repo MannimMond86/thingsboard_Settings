@@ -571,7 +571,7 @@
         "showDashboardExport" : true,
         "toolbarAlwaysOpen" : true,
         "titleColor" : "rgba(0,0,0,0.870588)",
-        "showDashboardLogo" : true,
+        "showDashboardLogo" : false,
         "dashboardLogoUrl" : "tb-image;https://display.de/wp-content/uploads/2021/01/Dekora.jpg",
         "hideToolbar" : false,
         "showFilters" : true,
