@@ -918,7 +918,7 @@
               "defaultPageSize" : 10,
               "defaultSortOrder" : "name",
               "useRowStyleFunction" : false,
-              "entitiesTitle" : "Pin:Counter "
+              "entitiesTitle" : "Pin: Counter "
             },
             "title" : "Entities table",
             "dropShadow" : true,
@@ -978,7 +978,7 @@
               }, {
                 "name" : "C_6",
                 "type" : "timeseries",
-                "label" : "C_6 2",
+                "label" : "C_6",
                 "color" : "#9c27b0",
                 "settings" : { },
                 "_hash" : 0.05692648668645672,
