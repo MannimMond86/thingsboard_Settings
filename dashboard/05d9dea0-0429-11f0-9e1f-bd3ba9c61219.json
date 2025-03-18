@@ -281,7 +281,7 @@
               },
               "padding" : "12px"
             },
-            "title" : "Range chart",
+            "title" : "RevPi Temperatur",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : null,
@@ -701,7 +701,7 @@
                 "viewFormat" : "grid",
                 "autoFillHeight" : false,
                 "rowHeight" : 70,
-                "backgroundImageUrl" : "tb-image;/api/images/tenant/Bildschirmfoto vom 2025-03-18 19-48-53.png",
+                "backgroundImageUrl" : "tb-image;/api/images/tenant/Bildschirmfoto vom 2025-03-18 19-57-16.png",
                 "mobileAutoFillHeight" : false,
                 "mobileRowHeight" : 70
               }
