@@ -80,8 +80,8 @@
               "showGetLocation" : false,
               "enableHighAccuracy" : false,
               "showLabel" : true,
-              "latLabel" : "",
-              "lngLabel" : "",
+              "latLabel" : "AO1",
+              "lngLabel" : "AO2",
               "inputFieldsAlignment" : "column",
               "isLatRequired" : true,
               "isLngRequired" : true,
@@ -113,10 +113,10 @@
             "main" : {
               "widgets" : {
                 "0b202a92-66fe-627f-6dc9-528ed14d26db" : {
-                  "sizeX" : 7,
+                  "sizeX" : 6,
                   "sizeY" : 3,
                   "row" : 2,
-                  "col" : 19
+                  "col" : 20
                 }
               },
               "gridSettings" : {
