@@ -1,0 +1,23 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "Wago-CC100",
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "name" : "Wago-CC100",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "51265030-04c1-11f0-9e1f-bd3ba9c61219"
+    }
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
