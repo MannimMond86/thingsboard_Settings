@@ -8,8 +8,8 @@
     "configuration" : {
       "description" : "",
       "widgets" : {
-        "f1fa4167-f1a5-7c70-09c5-cecb501b23a3" : {
-          "typeFullFqn" : "tenant.input_widgets.update_shared_location_attribute",
+        "0b202a92-66fe-627f-6dc9-528ed14d26db" : {
+          "typeFullFqn" : "system.input_widgets.update_shared_location_attribute",
           "type" : "latest",
           "sizeX" : 7.5,
           "sizeY" : 3,
@@ -19,19 +19,19 @@
               "name" : "",
               "deviceId" : "3b3c6400-04c4-11f0-9e1f-bd3ba9c61219",
               "dataKeys" : [ {
-                "name" : "DO1",
+                "name" : "AO1",
                 "type" : "attribute",
-                "label" : "DO1",
+                "label" : "AO1",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.053551060028644404
+                "_hash" : 0.7107859353714834
               }, {
-                "name" : "DO2",
+                "name" : "AO2",
                 "type" : "attribute",
-                "label" : "DO2",
+                "label" : "AO2",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.6123942083142697
+                "_hash" : 0.9389957253206473
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -54,8 +54,8 @@
                 "interval" : 1000,
                 "timewindowMs" : 60000,
                 "fixedTimewindow" : {
-                  "startTimeMs" : 1742305722014,
-                  "endTimeMs" : 1742392122014
+                  "startTimeMs" : 1742305820375,
+                  "endTimeMs" : 1742392220375
                 },
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
@@ -75,13 +75,13 @@
             "settings" : {
               "widgetTitle" : "",
               "showResultMessage" : true,
-              "latKeyName" : "latitude",
-              "lngKeyName" : "longitude",
-              "showGetLocation" : true,
+              "latKeyName" : "AO1",
+              "lngKeyName" : "AO2",
+              "showGetLocation" : false,
               "enableHighAccuracy" : false,
               "showLabel" : true,
-              "latLabel" : "DO1",
-              "lngLabel" : "DO2",
+              "latLabel" : "",
+              "lngLabel" : "",
               "inputFieldsAlignment" : "column",
               "isLatRequired" : true,
               "isLngRequired" : true,
@@ -102,7 +102,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "f1fa4167-f1a5-7c70-09c5-cecb501b23a3"
+          "id" : "0b202a92-66fe-627f-6dc9-528ed14d26db"
         }
       },
       "states" : {
@@ -112,11 +112,11 @@
           "layouts" : {
             "main" : {
               "widgets" : {
-                "f1fa4167-f1a5-7c70-09c5-cecb501b23a3" : {
+                "0b202a92-66fe-627f-6dc9-528ed14d26db" : {
                   "sizeX" : 7,
                   "sizeY" : 3,
-                  "row" : 1,
-                  "col" : 20
+                  "row" : 2,
+                  "col" : 19
                 }
               },
               "gridSettings" : {
