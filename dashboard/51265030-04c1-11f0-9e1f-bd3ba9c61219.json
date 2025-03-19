@@ -118,10 +118,10 @@
             "main" : {
               "widgets" : {
                 "0b202a92-66fe-627f-6dc9-528ed14d26db" : {
-                  "sizeX" : 6,
-                  "sizeY" : 3,
-                  "row" : 2,
-                  "col" : 20
+                  "sizeX" : 5,
+                  "sizeY" : 4,
+                  "row" : 0,
+                  "col" : 14
                 }
               },
               "gridSettings" : {
@@ -130,7 +130,7 @@
                 "columns" : 24,
                 "margin" : 10,
                 "outerMargin" : true,
-                "backgroundSizeMode" : "100%",
+                "backgroundSizeMode" : "contain",
                 "minColumns" : 24,
                 "viewFormat" : "grid",
                 "autoFillHeight" : false,
