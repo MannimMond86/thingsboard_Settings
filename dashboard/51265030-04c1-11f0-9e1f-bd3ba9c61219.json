@@ -87,7 +87,7 @@
               "isLngRequired" : true,
               "requiredErrorMessage" : ""
             },
-            "title" : "Update shared location attribute",
+            "title" : "Update analog out attributes",
             "dropShadow" : true,
             "enableFullscreen" : false,
             "widgetStyle" : { },
@@ -98,7 +98,12 @@
             "useDashboardTimewindow" : true,
             "showLegend" : false,
             "actions" : { },
-            "displayTimewindow" : true
+            "displayTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,
