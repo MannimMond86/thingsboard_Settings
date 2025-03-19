@@ -29,7 +29,7 @@
       "id" : "97402240-04c0-11f0-9e1f-bd3ba9c61219"
     },
     "label" : "",
-    "name" : "wago compact 100",
+    "name" : "CC100-594558",
     "softwareId" : null,
     "type" : "wago"
   },
@@ -40,7 +40,15 @@
   },
   "relations" : [ ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1742388566646,
+      "longValue" : null,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
