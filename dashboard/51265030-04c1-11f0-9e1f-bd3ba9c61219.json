@@ -159,9 +159,12 @@
                   "showArrow" : false
                 },
                 "_hash" : 0.6403969833331571,
-                "units" : "m³",
-                "decimals" : 0,
-                "aggregationType" : "NONE"
+                "units" : "ppm",
+                "decimals" : 3,
+                "aggregationType" : "NONE",
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               }, {
                 "name" : "AI1",
                 "type" : "timeseries",
@@ -201,12 +204,15 @@
                   "showArrow" : true
                 },
                 "_hash" : 0.47133568332634956,
-                "units" : "%",
-                "decimals" : 0,
+                "units" : "ppm",
+                "decimals" : 3,
                 "aggregationType" : "AVG",
                 "comparisonEnabled" : true,
                 "timeForComparison" : "previousInterval",
-                "comparisonResultType" : "DELTA_PERCENT"
+                "comparisonResultType" : "DELTA_PERCENT",
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               }, {
                 "name" : "AI1",
                 "type" : "timeseries",
@@ -234,23 +240,47 @@
                   "showArrow" : false
                 },
                 "_hash" : 0.7442610738216004,
-                "units" : "m³",
-                "decimals" : 1,
+                "units" : "ppm",
+                "decimals" : 3,
                 "aggregationType" : "AVG",
                 "comparisonEnabled" : true,
                 "timeForComparison" : "previousInterval",
-                "comparisonResultType" : "DELTA_ABSOLUTE"
+                "comparisonResultType" : "DELTA_ABSOLUTE",
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               } ]
             } ],
             "timewindow" : {
+              "hideAggregation" : false,
+              "hideAggInterval" : false,
+              "hideTimezone" : false,
               "selectedTab" : 1,
+              "realtime" : {
+                "realtimeType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
               "history" : {
-                "historyType" : 2,
-                "quickInterval" : "CURRENT_MONTH_SO_FAR"
+                "historyType" : 0,
+                "interval" : 5000,
+                "timewindowMs" : 900000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1742377817981,
+                  "endTimeMs" : 1742464217981
+                },
+                "quickInterval" : "CURRENT_MONTH_SO_FAR",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
               },
               "aggregation" : {
                 "type" : "AVG",
-                "interval" : 43200000,
                 "limit" : 5000
               }
             },
@@ -259,57 +289,8 @@
             "color" : null,
             "padding" : "0",
             "settings" : {
-              "stack" : false,
-              "fontSize" : 10,
-              "fontColor" : "#545454",
-              "showTooltip" : true,
-              "tooltipIndividual" : false,
-              "tooltipCumulative" : false,
-              "hideZeros" : false,
-              "grid" : {
-                "verticalLines" : true,
-                "horizontalLines" : true,
-                "outlineWidth" : 1,
-                "color" : "#545454",
-                "backgroundColor" : null,
-                "tickColor" : "#DDDDDD"
-              },
-              "xaxis" : {
-                "title" : null,
-                "showLabels" : true,
-                "color" : "#545454"
-              },
-              "yaxis" : {
-                "min" : null,
-                "max" : null,
-                "title" : null,
-                "showLabels" : true,
-                "color" : "#545454",
-                "tickSize" : null,
-                "tickDecimals" : 0,
-                "ticksFormatter" : ""
-              },
-              "shadowSize" : 4,
-              "smoothLines" : false,
-              "comparisonEnabled" : false,
-              "xaxisSecond" : {
-                "axisPosition" : "top",
-                "title" : null,
-                "showLabels" : true
-              },
-              "showLegend" : true,
-              "legendConfig" : {
-                "direction" : "column",
-                "position" : "bottom",
-                "sortDataKeys" : false,
-                "showMin" : false,
-                "showMax" : false,
-                "showAvg" : true,
-                "showTotal" : false,
-                "showLatest" : false
-              },
-              "customLegendEnabled" : false,
-              "showSubtitle" : true,
+              "autoScale" : true,
+              "showSubtitle" : false,
               "subtitle" : "${entityName}",
               "subtitleFont" : {
                 "family" : "Roboto",
@@ -324,7 +305,8 @@
               "dateFormat" : {
                 "format" : null,
                 "lastUpdateAgo" : true,
-                "custom" : false
+                "custom" : false,
+                "auto" : false
               },
               "dateFont" : {
                 "family" : "Roboto",
@@ -336,7 +318,6 @@
               },
               "dateColor" : "rgba(0, 0, 0, 0.38)",
               "showChart" : true,
-              "chartColor" : "rgba(0, 0, 0, 0.87)",
               "background" : {
                 "type" : "color",
                 "color" : "#fff",
@@ -346,10 +327,9 @@
                   "blur" : 3
                 }
               },
-              "autoScale" : true,
               "padding" : "18px"
             },
-            "title" : "C02.Chart",
+            "title" : "C02-Chart",
             "dropShadow" : true,
             "enableFullscreen" : false,
             "titleStyle" : {
