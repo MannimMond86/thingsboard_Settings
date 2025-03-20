@@ -1401,19 +1401,19 @@
               "name" : "",
               "deviceId" : "3b3c6400-04c4-11f0-9e1f-bd3ba9c61219",
               "dataKeys" : [ {
-                "name" : "DO1",
-                "type" : "attribute",
-                "label" : "DO1",
+                "name" : "AI1",
+                "type" : "timeseries",
+                "label" : "AI1",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.683677733857561
+                "_hash" : 0.7619599599047053
               }, {
-                "name" : "DO2",
-                "type" : "attribute",
-                "label" : "DO2",
+                "name" : "AI2",
+                "type" : "timeseries",
+                "label" : "AI2",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.2830375781850041
+                "_hash" : 0.30591499170756853
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
