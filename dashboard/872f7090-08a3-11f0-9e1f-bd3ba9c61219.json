@@ -1210,10 +1210,10 @@
           "col" : 0,
           "id" : "f35bb584-c915-1274-b9aa-fb25a1198921"
         },
-        "ed88ea65-5b76-cde8-ec7a-90f2de1495a3" : {
-          "typeFullFqn" : "system.maps_v2.here_map",
+        "f90c5a11-8636-360c-e6d4-24170805317c" : {
+          "typeFullFqn" : "system.maps_v2.openstreetmap",
           "type" : "latest",
-          "sizeX" : 9.5,
+          "sizeX" : 8.5,
           "sizeY" : 6,
           "config" : {
             "datasources" : [ {
@@ -1228,14 +1228,14 @@
                 "label" : "latitude",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.9154809515234126
+                "_hash" : 0.24006021612306472
               }, {
                 "name" : "longitude",
                 "type" : "attribute",
                 "label" : "longitude",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.5256066302798699
+                "_hash" : 0.036978549544982364
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1258,8 +1258,8 @@
                 "interval" : 1000,
                 "timewindowMs" : 60000,
                 "fixedTimewindow" : {
-                  "startTimeMs" : 1742731389007,
-                  "endTimeMs" : 1742817789007
+                  "startTimeMs" : 1742731477877,
+                  "endTimeMs" : 1742817877877
                 },
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
@@ -1277,20 +1277,10 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
             "settings" : {
-              "provider" : "here",
-              "gmApiKey" : "AIzaSyDoEx2kaGz3PxwbI9T7ccTSg5xjdw8Nw8Q",
-              "gmDefaultMapType" : "roadmap",
-              "mapProvider" : "HERE.normalDay",
+              "provider" : "openstreet-map",
+              "mapProvider" : "OpenStreetMap.Mapnik",
               "useCustomProvider" : false,
               "customProviderTileUrl" : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-              "mapProviderHere" : "HERE.normalDay",
-              "credentials" : {
-                "useV3" : true,
-                "apiKey" : "kVXykxAfZ6LS4EbCTO02soFVfjA7HoBzNVVH9u7nzoE"
-              },
-              "mapImageUrl" : "tb-image;/api/images/system/here_map_system_widget_map_image.svg",
-              "tmApiKey" : "84d6d83e0e51e481e50454ccbe8986b",
-              "tmDefaultMapType" : "roadmap",
               "latKeyName" : "latitude",
               "lngKeyName" : "longitude",
               "xPosKeyName" : "xPos",
@@ -1324,7 +1314,7 @@
               "markerImageFunction" : "var type = dsData[dsIndex]['Type'];\nif (type == 'thermometer') {\n\tvar res = {\n\t    url: images[0],\n\t    size: 40\n\t}\n\tvar temperature = dsData[dsIndex]['temperature'];\n\tif (typeof temperature !== undefined) {\n\t    var percent = (temperature + 60)/120;\n\t    var index = Math.min(3, Math.floor(4 * percent));\n\t    res.url = images[index];\n\t}\n\treturn res;\n}",
               "markerImages" : [ "tb-image;/api/images/system/map_marker_image_0.png", "tb-image;/api/images/system/map_marker_image_1.png", "tb-image;/api/images/system/map_marker_image_2.png", "tb-image;/api/images/system/map_marker_image_3.png" ],
               "showPolygon" : false,
-              "polygonKeyName" : "coordinates",
+              "polygonKeyName" : "perimeter",
               "editablePolygon" : false,
               "showPolygonLabel" : false,
               "usePolygonLabelFunction" : false,
@@ -1335,11 +1325,11 @@
               "usePolygonTooltipFunction" : false,
               "polygonTooltipPattern" : "<b>${entityName}</b><br/><br/><b>TimeStamp:</b> ${ts:7}",
               "polygonColor" : "#3388ff",
-              "polygonOpacity" : 0.5,
+              "polygonOpacity" : 0.2,
               "usePolygonColorFunction" : false,
               "polygonStrokeColor" : "#3388ff",
               "polygonStrokeOpacity" : 1,
-              "polygonStrokeWeight" : 1,
+              "polygonStrokeWeight" : 3,
               "usePolygonStrokeColorFunction" : false,
               "showCircle" : false,
               "circleKeyName" : "perimeter",
@@ -1369,7 +1359,7 @@
               "removeOutsideVisibleBounds" : true,
               "useIconCreateFunction" : false
             },
-            "title" : "HERE Map",
+            "title" : "OpenStreet Map",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1384,7 +1374,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "ed88ea65-5b76-cde8-ec7a-90f2de1495a3"
+          "id" : "f90c5a11-8636-360c-e6d4-24170805317c"
         }
       },
       "states" : {
@@ -1394,9 +1384,9 @@
           "layouts" : {
             "main" : {
               "widgets" : {
-                "ed88ea65-5b76-cde8-ec7a-90f2de1495a3" : {
-                  "sizeX" : 13,
-                  "sizeY" : 15,
+                "f90c5a11-8636-360c-e6d4-24170805317c" : {
+                  "sizeX" : 15,
+                  "sizeY" : 12,
                   "row" : 0,
                   "col" : 0
                 }
