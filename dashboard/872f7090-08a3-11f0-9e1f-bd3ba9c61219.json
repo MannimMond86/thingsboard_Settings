@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "title" : "RUT200",
+    "title" : "Teltonika",
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
@@ -1535,7 +1535,7 @@
         "dashboardCss" : ""
       }
     },
-    "name" : "RUT200",
+    "name" : "Teltonika",
     "resources" : null,
     "assignedCustomers" : null,
     "externalId" : null,
