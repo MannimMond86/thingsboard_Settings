@@ -1219,48 +1219,48 @@
             "main" : {
               "widgets" : {
                 "a3bdd6ee-7e1a-e774-3000-62b04dea78e4" : {
-                  "sizeX" : 4,
+                  "sizeX" : 16,
                   "sizeY" : 6,
                   "mobileHeight" : null,
-                  "row" : 7,
-                  "col" : 20
+                  "row" : 4,
+                  "col" : 8
                 },
                 "fd0a6f34-f0ec-ab69-14f8-2bd7b3d84710" : {
                   "sizeX" : 4,
                   "sizeY" : 1,
-                  "row" : 16,
-                  "col" : 20
+                  "row" : 2,
+                  "col" : 17
                 },
                 "94576ed8-2bf6-17ad-30ca-1f339e179d82" : {
                   "sizeX" : 4,
                   "sizeY" : 1,
-                  "row" : 17,
-                  "col" : 20
+                  "row" : 3,
+                  "col" : 17
                 },
                 "2a34f902-54db-9961-e5fa-2e34792b6d1c" : {
-                  "sizeX" : 4,
-                  "sizeY" : 3,
+                  "sizeX" : 5,
+                  "sizeY" : 4,
                   "mobileHeight" : null,
                   "row" : 0,
-                  "col" : 20
+                  "col" : 8
                 },
                 "47738f54-d09b-9cdb-e6db-bbad1676e0bc" : {
                   "sizeX" : 4,
                   "sizeY" : 4,
-                  "row" : 3,
-                  "col" : 20
+                  "row" : 0,
+                  "col" : 13
                 },
                 "77e6bfa8-f53c-ec9b-e359-6e440c9c6f77" : {
                   "sizeX" : 4,
                   "sizeY" : 1,
-                  "row" : 15,
-                  "col" : 20
+                  "row" : 1,
+                  "col" : 17
                 },
                 "f35bb584-c915-1274-b9aa-fb25a1198921" : {
                   "sizeX" : 4,
                   "sizeY" : 1,
-                  "row" : 14,
-                  "col" : 20
+                  "row" : 0,
+                  "col" : 17
                 }
               },
               "gridSettings" : {
@@ -1269,7 +1269,7 @@
                 "columns" : 24,
                 "margin" : 10,
                 "outerMargin" : true,
-                "backgroundSizeMode" : "contain",
+                "backgroundSizeMode" : "auto",
                 "minColumns" : 24,
                 "viewFormat" : "grid",
                 "autoFillHeight" : false,
