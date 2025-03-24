@@ -7,7 +7,10 @@
     "configuration" : null,
     "debugMode" : false,
     "externalId" : null,
-    "firstRuleNodeId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "4d934271-08b3-11f0-9e1f-bd3ba9c61219"
+    },
     "id" : {
       "entityType" : "RULE_CHAIN",
       "id" : "6ec8d3a0-04cc-11f0-9e1f-bd3ba9c61219"
@@ -17,9 +20,324 @@
     "type" : "CORE"
   },
   "metaData" : {
-    "connections" : null,
-    "firstNodeIndex" : null,
-    "nodes" : [ ],
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "default"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 5,
+      "type" : "Created"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 1,
+      "type" : "Device profile"
+    } ],
+    "firstNodeIndex" : 9,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 327,
+        "layoutY" : 151
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d8fe710-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "get Teltonika",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbDeviceTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 646,
+        "layoutY" : 325
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d900e20-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 656,
+        "layoutY" : 71
+      },
+      "configuration" : {
+        "topicPattern" : "my-topic",
+        "keyPattern" : null,
+        "bootstrapServers" : "localhost:9092",
+        "retries" : 0,
+        "batchSize" : 16384,
+        "linger" : 0,
+        "bufferMemory" : 33554432,
+        "acks" : "-1",
+        "keySerializer" : "org.apache.kafka.common.serialization.StringSerializer",
+        "valueSerializer" : "org.apache.kafka.common.serialization.StringSerializer",
+        "otherProperties" : { },
+        "addMetadataKeyValuesAsKafkaHeaders" : false,
+        "kafkaHeadersCharset" : "UTF-8"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d90d170-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.kafka.TbKafkaNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 587,
+        "layoutY" : 723
+      },
+      "configuration" : {
+        "useSystemSmtpSettings" : true,
+        "smtpHost" : "localhost",
+        "smtpPort" : 25,
+        "username" : null,
+        "password" : null,
+        "smtpProtocol" : "smtp",
+        "timeout" : 10000,
+        "enableTls" : false,
+        "tlsVersion" : "TLSv1.2",
+        "enableProxy" : false,
+        "proxyHost" : null,
+        "proxyPort" : null,
+        "proxyUser" : null,
+        "proxyPassword" : null
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d911f90-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.mail.TbSendEmailNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 645,
+        "layoutY" : 192
+      },
+      "configuration" : {
+        "restEndpointUrlPattern" : "http://localhost/api",
+        "requestMethod" : "POST",
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "useSimpleClientHttpFactory" : false,
+        "readTimeoutMs" : 0,
+        "maxParallelRequestsCount" : 0,
+        "parseToPlainText" : false,
+        "enableProxy" : false,
+        "useSystemProxyProperties" : false,
+        "proxyHost" : null,
+        "proxyPort" : 0,
+        "proxyUser" : null,
+        "proxyPassword" : null,
+        "proxyScheme" : null,
+        "credentials" : {
+          "type" : "anonymous"
+        },
+        "ignoreRequestBody" : false,
+        "maxInMemoryBufferSizeInKb" : 256
+      },
+      "configurationVersion" : 3,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d91e2e0-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbRestApiCallNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 586,
+        "layoutY" : 618
+      },
+      "configuration" : {
+        "fromTemplate" : "info@testmail.org",
+        "toTemplate" : "${userEmail}",
+        "ccTemplate" : null,
+        "bccTemplate" : null,
+        "subjectTemplate" : "Device ${deviceType} temperature high",
+        "bodyTemplate" : "Device ${deviceName} has high temperature $[temperature]",
+        "isHtmlTemplate" : null,
+        "mailBodyType" : "false"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d9209f0-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.mail.TbMsgToEmailNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 589,
+        "layoutY" : 511
+      },
+      "configuration" : {
+        "alarmType" : "General Alarm",
+        "scriptLang" : "TBEL",
+        "alarmDetailsBuildJs" : "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmDetailsBuildTbel" : "var details = {};\nif (metadata.prevAlarmDetails != null) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    metadata.remove('prevAlarmDetails');\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "severity" : "CRITICAL",
+        "propagate" : false,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false,
+        "useMessageAlarmData" : false,
+        "overwriteAlarmDetails" : false,
+        "dynamicSeverity" : false,
+        "relationTypes" : [ ]
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d92f450-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 951,
+        "layoutY" : 123
+      },
+      "configuration" : {
+        "numbersToTemplate" : "${userPhone}",
+        "smsMessageTemplate" : "Device ${deviceName} has high temperature ${temp}",
+        "useSystemSmsSettings" : true,
+        "smsProviderConfiguration" : null
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d931b60-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.sms.TbSendSmsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 939,
+        "layoutY" : 305
+      },
+      "configuration" : {
+        "topicPattern" : "my-topic",
+        "host" : "sdf",
+        "port" : 1883,
+        "connectTimeoutSec" : 10,
+        "clientId" : null,
+        "parseToPlainText" : false,
+        "cleanSession" : true,
+        "retainedMessage" : false,
+        "ssl" : false,
+        "credentials" : {
+          "type" : "anonymous"
+        }
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d934270-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "testasfasdsadf",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : true,
+      "type" : "org.thingsboard.rule.engine.mqtt.TbMqttNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 245,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d934271-08b3-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "get_teltonika",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbOriginatorTypeSwitchNode"
+    } ],
     "ruleChainConnections" : null
   },
   "attributes" : {
