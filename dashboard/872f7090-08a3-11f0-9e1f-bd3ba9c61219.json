@@ -1,0 +1,23 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "RUT200",
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "name" : "RUT200",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "872f7090-08a3-11f0-9e1f-bd3ba9c61219"
+    }
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
