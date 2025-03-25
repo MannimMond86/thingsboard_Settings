@@ -1,0 +1,48 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Secure and robust LTE router for IoT deployments.",
+      "mqtt_client_id" : "9b863d06-6628-4a10-8f38-d930a65b38a8",
+      "signage_ip" : "192.168.178.112",
+      "latitude" : 49.841981,
+      "longitude" : 12.100923
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "47a43270-0967-11f0-9e1f-bd3ba9c61219"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "4aadc8f0-0967-11f0-9e1f-bd3ba9c61219"
+    },
+    "label" : "Teltonika RUT271",
+    "name" : "RUT271_12",
+    "softwareId" : null,
+    "type" : "4G Router"
+  },
+  "credentials" : {
+    "credentialsId" : "4SDNi83YUKZQdl5yGm4V",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
