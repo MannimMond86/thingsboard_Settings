@@ -1810,7 +1810,7 @@
               "showResultMessage" : true,
               "latKeyName" : "sharpness",
               "lngKeyName" : "contrast",
-              "showGetLocation" : true,
+              "showGetLocation" : false,
               "enableHighAccuracy" : false,
               "showLabel" : true,
               "latLabel" : "Sharpness",
