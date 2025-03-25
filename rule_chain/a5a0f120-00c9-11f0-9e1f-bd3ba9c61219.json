@@ -163,8 +163,8 @@
       "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 825,
-        "layoutY" : 379
+        "layoutX" : 842,
+        "layoutY" : 353
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -282,15 +282,15 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1163,
-        "layoutY" : 378
+        "layoutX" : 1196,
+        "layoutY" : 366
       },
       "configuration" : {
         "topicPattern" : "my-topic",
         "host" : "thingsboard.teveo.de",
         "port" : 1883,
         "connectTimeoutSec" : 10,
-        "clientId" : "GpHLC5y6UUV2rixos6CT",
+        "clientId" : "458c5de0-0986-11f0-9e1f-bd3ba9c61219",
         "appendClientIdSuffix" : true,
         "parseToPlainText" : false,
         "cleanSession" : true,
