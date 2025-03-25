@@ -294,7 +294,7 @@
         "layoutY" : 358
       },
       "configuration" : {
-        "topicPattern" : "my-topic",
+        "topicPattern" : "telemetry",
         "host" : "thingsboard.teveo.de",
         "port" : 1883,
         "connectTimeoutSec" : 10,
