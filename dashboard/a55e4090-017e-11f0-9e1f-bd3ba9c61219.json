@@ -2622,19 +2622,19 @@
               "name" : "",
               "entityAliasId" : "057408f0-5a28-765e-fb5c-c008d43f6d17",
               "dataKeys" : [ {
-                "name" : "device_ip",
+                "name" : "channel_change.CHANGE_TO",
                 "type" : "attribute",
-                "label" : "device_ip",
-                "color" : "#4caf50",
+                "label" : "channel_change.CHANGE_TO",
+                "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.6328635755846632
+                "_hash" : 0.7776848238105774
               }, {
-                "name" : "device_number",
+                "name" : "volume_change.CHANGE_TO",
                 "type" : "attribute",
-                "label" : "device_number",
+                "label" : "volume_change.CHANGE_TO",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.6170352209242425
+                "_hash" : 0.7588006478270906
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
