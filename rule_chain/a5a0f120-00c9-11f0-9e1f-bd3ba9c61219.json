@@ -290,8 +290,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1195,
-        "layoutY" : 358
+        "layoutX" : 1229,
+        "layoutY" : 359
       },
       "configuration" : {
         "topicPattern" : "telemetry",
