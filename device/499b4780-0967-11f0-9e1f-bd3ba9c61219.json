@@ -1,0 +1,48 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Reliable LTE router for M2M applications with enhanced security features.",
+      "mqtt_client_id" : "6ea91d8f-ecf0-4312-a283-50dee10afe4d",
+      "signage_ip" : "192.168.178.108",
+      "latitude" : 50.060193,
+      "longitude" : 12.836057
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "47a43270-0967-11f0-9e1f-bd3ba9c61219"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "499b4780-0967-11f0-9e1f-bd3ba9c61219"
+    },
+    "label" : "Teltonika RUT241",
+    "name" : "RUT241_8",
+    "softwareId" : null,
+    "type" : "4G Router"
+  },
+  "credentials" : {
+    "credentialsId" : "zfeCXOrDFl7p8bo5uL9s",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
