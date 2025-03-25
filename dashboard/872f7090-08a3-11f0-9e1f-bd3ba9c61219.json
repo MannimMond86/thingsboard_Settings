@@ -907,7 +907,7 @@
             "displayTimewindow" : true,
             "actions" : { },
             "borderRadius" : null,
-            "units" : null
+            "units" : "%"
           },
           "row" : 0,
           "col" : 0,
