@@ -67,6 +67,10 @@
       "toIndex" : 8,
       "type" : "RPC Timeout"
     }, {
+      "fromIndex" : 2,
+      "toIndex" : 9,
+      "type" : "Post telemetry"
+    }, {
       "fromIndex" : 4,
       "toIndex" : 9,
       "type" : "Success"
@@ -82,8 +86,8 @@
     "firstNodeIndex" : 6,
     "nodes" : [ {
       "additionalInfo" : {
-        "layoutX" : 824,
-        "layoutY" : 156
+        "layoutX" : 822,
+        "layoutY" : 118
       },
       "configuration" : {
         "defaultTTL" : 0
