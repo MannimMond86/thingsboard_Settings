@@ -1757,14 +1757,14 @@
                 "label" : "sharpness",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.7225645387674875
+                "_hash" : 0.4785451366419968
               }, {
                 "name" : "contrast",
                 "type" : "attribute",
                 "label" : "contrast",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.5193255314631939
+                "_hash" : 0.14999884620215753
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
