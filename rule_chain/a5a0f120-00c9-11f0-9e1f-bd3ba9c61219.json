@@ -282,8 +282,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1196,
-        "layoutY" : 366
+        "layoutX" : 1195,
+        "layoutY" : 358
       },
       "configuration" : {
         "topicPattern" : "my-topic",
