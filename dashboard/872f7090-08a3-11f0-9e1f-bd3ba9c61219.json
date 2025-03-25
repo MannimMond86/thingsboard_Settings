@@ -1369,7 +1369,22 @@
             "useDashboardTimewindow" : true,
             "showLegend" : false,
             "widgetStyle" : { },
-            "actions" : { },
+            "actions" : {
+              "markerClick" : [ {
+                "name" : "GetDevice",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "__entityname__",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "29cf35f6-85db-f5e8-4ffb-205b46154be1"
+              } ]
+            },
             "displayTimewindow" : true
           },
           "row" : 0,
