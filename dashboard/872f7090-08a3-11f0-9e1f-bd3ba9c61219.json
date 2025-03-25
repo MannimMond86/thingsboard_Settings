@@ -1217,10 +1217,10 @@
           "sizeY" : 6,
           "config" : {
             "datasources" : [ {
-              "type" : "device",
+              "type" : "entity",
               "name" : "",
-              "deviceId" : "9d420360-07f0-11f0-9e1f-bd3ba9c61219",
-              "entityAliasId" : null,
+              "deviceId" : null,
+              "entityAliasId" : "f16b6354-2b24-0592-a512-5a63281c5004",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -1809,7 +1809,18 @@
           }
         }
       },
-      "entityAliases" : { },
+      "entityAliases" : {
+        "f16b6354-2b24-0592-a512-5a63281c5004" : {
+          "id" : "f16b6354-2b24-0592-a512-5a63281c5004",
+          "alias" : "teltonik",
+          "filter" : {
+            "type" : "entityList",
+            "resolveMultiple" : true,
+            "entityType" : "DEVICE",
+            "entityList" : [ "b75548a1-0987-11f0-9e1f-bd3ba9c61219", "b76e9d00-0987-11f0-9e1f-bd3ba9c61219", "b76e27d0-0987-11f0-9e1f-bd3ba9c61219", "b76e75f2-0987-11f0-9e1f-bd3ba9c61219", "b7757ad1-0987-11f0-9e1f-bd3ba9c61219", "b7757ad2-0987-11f0-9e1f-bd3ba9c61219", "b77553c0-0987-11f0-9e1f-bd3ba9c61219", "b7797272-0987-11f0-9e1f-bd3ba9c61219", "b7797270-0987-11f0-9e1f-bd3ba9c61219", "b74fa352-0987-11f0-9e1f-bd3ba9c61219", "b750b4c0-0987-11f0-9e1f-bd3ba9c61219", "4eca2270-097c-11f0-9e1f-bd3ba9c61219", "b76e9d01-0987-11f0-9e1f-bd3ba9c61219", "b76fae70-0987-11f0-9e1f-bd3ba9c61219", "4eca4981-097c-11f0-9e1f-bd3ba9c61219", "b7779db1-0987-11f0-9e1f-bd3ba9c61219", "b77294a0-0987-11f0-9e1f-bd3ba9c61219", "b774b783-0987-11f0-9e1f-bd3ba9c61219", "b7726d90-0987-11f0-9e1f-bd3ba9c61219", "b751c630-0987-11f0-9e1f-bd3ba9c61219", "46741a60-0597-11f0-9e1f-bd3ba9c61219" ]
+          }
+        }
+      },
       "filters" : { },
       "timewindow" : {
         "displayValue" : "",
