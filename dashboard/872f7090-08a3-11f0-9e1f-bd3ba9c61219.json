@@ -645,7 +645,7 @@
                 "decimals" : null,
                 "funcBody" : null,
                 "usePostProcessing" : true,
-                "postFuncBody" : "return (value * 100).toFixed(2) + \" %\";\n"
+                "postFuncBody" : "return (value * 100).toFixed(2);\n"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -658,7 +658,11 @@
                 "settings" : { },
                 "_hash" : 0.8091747465211228,
                 "units" : null,
-                "decimals" : null
+                "decimals" : null,
+                "aggregationType" : "NONE",
+                "funcBody" : null,
+                "usePostProcessing" : true,
+                "postFuncBody" : "return (value * 100);\n"
               } ]
             } ],
             "showTitle" : true,
