@@ -1,0 +1,48 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Compact LTE router for remote management and industrial automation.",
+      "mqtt_client_id" : "98eeff79-94a5-4771-a191-4b647b67c4b8",
+      "signage_ip" : "192.168.178.106",
+      "latitude" : 48.689725,
+      "longitude" : 7.681073
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "47a43270-0967-11f0-9e1f-bd3ba9c61219"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "9fac5c40-0967-11f0-9e1f-bd3ba9c61219"
+    },
+    "label" : "Teltonika RUT200",
+    "name" : "RUT200_6",
+    "softwareId" : null,
+    "type" : "4G Router"
+  },
+  "credentials" : {
+    "credentialsId" : "BkUwT5uB4CMhDgSbRYQN",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
