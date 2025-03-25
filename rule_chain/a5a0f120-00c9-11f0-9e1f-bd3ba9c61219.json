@@ -70,6 +70,10 @@
       "fromIndex" : 6,
       "toIndex" : 2,
       "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 10,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 6,
     "nodes" : [ {
@@ -313,6 +317,28 @@
       "ruleChainId" : null,
       "singletonMode" : true,
       "type" : "org.thingsboard.rule.engine.mqtt.TbMqttNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1503,
+        "layoutY" : 348
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d58a1770-0986-11f0-9e1f-bd3ba9c61219"
+      },
+      "name" : "out mqtt",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainOutputNode"
     } ],
     "ruleChainConnections" : null
   },
