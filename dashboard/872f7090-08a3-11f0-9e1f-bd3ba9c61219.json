@@ -645,7 +645,7 @@
                 "decimals" : null,
                 "funcBody" : null,
                 "usePostProcessing" : true,
-                "postFuncBody" : "return (value * 100).toFixed(2);\n"
+                "postFuncBody" : "return (value * 100);\n"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -785,7 +785,13 @@
                 "label" : "ram_usage",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.6865761505445038
+                "_hash" : 0.6865761505445038,
+                "aggregationType" : "NONE",
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : true,
+                "postFuncBody" : "return (value * 100);\n"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
