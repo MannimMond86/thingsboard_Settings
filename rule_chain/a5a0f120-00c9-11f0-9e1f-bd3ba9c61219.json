@@ -298,7 +298,7 @@
         "host" : "thingsboard.teveo.de",
         "port" : 1883,
         "connectTimeoutSec" : 10,
-        "clientId" : "458c5de0-0986-11f0-9e1f-bd3ba9c61219",
+        "clientId" : "GpHLC5y6UUV2rixos6CT",
         "appendClientIdSuffix" : true,
         "parseToPlainText" : false,
         "cleanSession" : true,
