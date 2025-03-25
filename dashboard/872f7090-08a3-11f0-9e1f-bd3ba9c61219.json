@@ -315,11 +315,11 @@
               "entityAliasId" : "825383c7-21e4-c2df-6a6b-4a2bddb1d05a",
               "dataKeys" : [ {
                 "name" : "firmware",
-                "type" : "timeseries",
+                "type" : "attribute",
                 "label" : "firmware",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.5158641678864666
+                "_hash" : 0.8714986746273745
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -475,11 +475,11 @@
               "entityAliasId" : "825383c7-21e4-c2df-6a6b-4a2bddb1d05a",
               "dataKeys" : [ {
                 "name" : "imei",
-                "type" : "timeseries",
+                "type" : "attribute",
                 "label" : "imei",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.5077518187236825
+                "_hash" : 0.44663282362456647
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -775,7 +775,7 @@
                 "label" : "ram_usage",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.06769115381804025
+                "_hash" : 0.6865761505445038
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -866,7 +866,7 @@
                 "shadowColor" : "rgba(0, 0, 0, 0.49)",
                 "color" : "#444"
               },
-              "minValue" : -100,
+              "minValue" : 0,
               "colorNeedleShadowDown" : "rgba(188,143,143,0.45)",
               "colorValueBoxRect" : "#888",
               "colorValueBoxRectEnd" : "#666",
@@ -910,11 +910,11 @@
               "entityAliasId" : "825383c7-21e4-c2df-6a6b-4a2bddb1d05a",
               "dataKeys" : [ {
                 "name" : "mac_address",
-                "type" : "timeseries",
+                "type" : "attribute",
                 "label" : "mac_address",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.6166692163859826
+                "_hash" : 0.14938559331091206
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1070,11 +1070,11 @@
               "entityAliasId" : "825383c7-21e4-c2df-6a6b-4a2bddb1d05a",
               "dataKeys" : [ {
                 "name" : "serial_number",
-                "type" : "timeseries",
+                "type" : "attribute",
                 "label" : "serial_number",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.82075922418651
+                "_hash" : 0.29006354673157575
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
