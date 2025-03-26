@@ -1918,48 +1918,48 @@
             "main" : {
               "widgets" : {
                 "a3bdd6ee-7e1a-e774-3000-62b04dea78e4" : {
-                  "sizeX" : 15,
-                  "sizeY" : 6,
+                  "sizeX" : 4,
+                  "sizeY" : 3,
                   "mobileHeight" : null,
-                  "row" : 4,
-                  "col" : 7
+                  "row" : 8,
+                  "col" : 1
                 },
                 "fd0a6f34-f0ec-ab69-14f8-2bd7b3d84710" : {
                   "sizeX" : 6,
                   "sizeY" : 1,
-                  "row" : 2,
-                  "col" : 16
+                  "row" : 7,
+                  "col" : 14
                 },
                 "94576ed8-2bf6-17ad-30ca-1f339e179d82" : {
                   "sizeX" : 6,
                   "sizeY" : 1,
-                  "row" : 3,
-                  "col" : 16
+                  "row" : 4,
+                  "col" : 14
                 },
                 "2a34f902-54db-9961-e5fa-2e34792b6d1c" : {
-                  "sizeX" : 5,
-                  "sizeY" : 4,
+                  "sizeX" : 2,
+                  "sizeY" : 2,
                   "mobileHeight" : null,
-                  "row" : 0,
-                  "col" : 7
+                  "row" : 6,
+                  "col" : 8
                 },
                 "47738f54-d09b-9cdb-e6db-bbad1676e0bc" : {
-                  "sizeX" : 4,
-                  "sizeY" : 4,
-                  "row" : 0,
-                  "col" : 12
+                  "sizeX" : 3,
+                  "sizeY" : 2,
+                  "row" : 6,
+                  "col" : 10
                 },
                 "77e6bfa8-f53c-ec9b-e359-6e440c9c6f77" : {
                   "sizeX" : 6,
                   "sizeY" : 1,
-                  "row" : 1,
-                  "col" : 16
+                  "row" : 6,
+                  "col" : 14
                 },
                 "f35bb584-c915-1274-b9aa-fb25a1198921" : {
                   "sizeX" : 6,
                   "sizeY" : 1,
-                  "row" : 0,
-                  "col" : 16
+                  "row" : 5,
+                  "col" : 14
                 },
                 "b011a82e-69d5-0b63-6950-fdc68528aeb9" : {
                   "sizeX" : 8,
@@ -2058,7 +2058,7 @@
         "hideToolbar" : false,
         "showFilters" : true,
         "showUpdateDashboardImage" : true,
-        "dashboardCss" : ""
+        "dashboardCss" : "/* Global Dashboard Style */\nbody {\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n    background-color: #f4f6f8;\n    color: #333;\n    margin: 0;\n    padding: 0;\n}\n\n/* Dashboard Container */\n.dashboard-container {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));\n    gap: 1rem;\n    padding: 2rem;\n}\n\n/* Widget Card */\n.widget-card {\n    background-color: #ffffff;\n    border-radius: 12px;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);\n    padding: 1rem;\n    transition: transform 0.2s ease, box-shadow 0.2s ease;\n}\n\n.widget-card:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);\n}\n\n/* Widget Header */\n.widget-header {\n    font-size: 1.2rem;\n    font-weight: 600;\n    margin-bottom: 0.5rem;\n}\n\n/* Widget Content (e.g. text, values) */\n.widget-content {\n    font-size: 1rem;\n    color: #555;\n}\n\n/* Status Pills (e.g. online/offline) */\n.status-pill {\n    display: inline-block;\n    padding: 4px 10px;\n    border-radius: 20px;\n    font-size: 0.8rem;\n    font-weight: 500;\n    color: white;\n}\n\n.status-online {\n    background-color: #4caf50;\n}\n\n.status-offline {\n    background-color: #f44336;\n}\n\n.status-unknown {\n    background-color: #9e9e9e;\n}\n\n/* Pin Color Example (if you use it with inline SVG or styled divs) */\n.pin {\n    width: 16px;\n    height: 16px;\n    border-radius: 50%;\n    display: inline-block;\n}\n\n.pin.green { background-color: #4caf50; }\n.pin.red { background-color: #f44336; }\n"
       }
     },
     "name" : "Teltonika",
