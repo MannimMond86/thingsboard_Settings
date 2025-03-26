@@ -3557,6 +3557,16 @@
             "stateEntityParamName" : null,
             "defaultStateEntity" : null
           }
+        },
+        "9160621b-2648-9959-ee48-dbdcaa694878" : {
+          "id" : "9160621b-2648-9959-ee48-dbdcaa694878",
+          "alias" : "teltonika",
+          "filter" : {
+            "type" : "entityName",
+            "resolveMultiple" : true,
+            "entityType" : "DEVICE",
+            "entityNameFilter" : "RUT"
+          }
         }
       },
       "filters" : { },
