@@ -1848,8 +1848,8 @@
             "displayTimewindow" : true,
             "showTitleIcon" : false,
             "titleTooltip" : "",
-            "dropShadow" : true,
-            "enableFullscreen" : true,
+            "dropShadow" : false,
+            "enableFullscreen" : false,
             "widgetStyle" : { },
             "widgetCss" : "",
             "titleStyle" : {
@@ -1954,8 +1954,8 @@
                 "5eb52cab-fe74-954e-6d65-ea9ac37246dd" : {
                   "sizeX" : 8,
                   "sizeY" : 4,
-                  "row" : 10,
-                  "col" : 15
+                  "row" : 11,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
