@@ -2941,9 +2941,16 @@
         "showTitle" : false,
         "showDashboardsSelect" : true,
         "showEntitiesSelect" : true,
-        "showDashboardTimewindow" : true,
-        "showDashboardExport" : true,
-        "toolbarAlwaysOpen" : true
+        "showDashboardTimewindow" : false,
+        "showDashboardExport" : false,
+        "toolbarAlwaysOpen" : false,
+        "titleColor" : "rgba(0,0,0,0.870588)",
+        "showDashboardLogo" : false,
+        "dashboardLogoUrl" : null,
+        "hideToolbar" : false,
+        "showFilters" : false,
+        "showUpdateDashboardImage" : false,
+        "dashboardCss" : ""
       }
     },
     "name" : "Samsung_MDC_single view",
