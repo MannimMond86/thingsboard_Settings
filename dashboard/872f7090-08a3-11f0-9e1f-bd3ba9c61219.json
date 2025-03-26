@@ -1739,8 +1739,8 @@
           "col" : 0,
           "id" : "1e19e8a2-9456-d1c7-1a5a-94eb26c95c91"
         },
-        "5eb52cab-fe74-954e-6d65-ea9ac37246dd" : {
-          "typeFullFqn" : "system.cards.attributes_card",
+        "b011a82e-69d5-0b63-6950-fdc68528aeb9" : {
+          "typeFullFqn" : "tenant.attribute_card",
           "type" : "latest",
           "sizeX" : 7.5,
           "sizeY" : 3,
@@ -1750,12 +1750,38 @@
               "name" : "",
               "entityAliasId" : "825383c7-21e4-c2df-6a6b-4a2bddb1d05a",
               "dataKeys" : [ {
+                "name" : "sim_iccid",
+                "type" : "attribute",
+                "label" : "ICCID",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.041844425548358544,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "sim_status",
+                "type" : "attribute",
+                "label" : "SIM Status",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.322446577799854,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
                 "name" : "operator",
                 "type" : "attribute",
                 "label" : "Anbieter",
-                "color" : "#2196f3",
+                "color" : "#607d8b",
                 "settings" : { },
-                "_hash" : 0.5542157708124,
+                "_hash" : 0.016506812102748514,
                 "aggregationType" : null,
                 "units" : null,
                 "decimals" : null,
@@ -1765,10 +1791,23 @@
               }, {
                 "name" : "provider",
                 "type" : "attribute",
-                "label" : "Netzbetreiber",
-                "color" : "#4caf50",
+                "label" : "akt. Netzbetreiber",
+                "color" : "#9c27b0",
                 "settings" : { },
-                "_hash" : 0.9476337535735664,
+                "_hash" : 0.9846708712229744,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "data_carrier_type",
+                "type" : "attribute",
+                "label" : "Verbindung",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.476109839551369,
                 "aggregationType" : null,
                 "units" : null,
                 "decimals" : null,
@@ -1781,140 +1820,13 @@
                 "label" : "Netzstatus",
                 "color" : "#f44336",
                 "settings" : { },
-                "_hash" : 0.8042041894975218,
+                "_hash" : 0.13912487446972777,
                 "aggregationType" : null,
                 "units" : null,
                 "decimals" : null,
                 "funcBody" : null,
                 "usePostProcessing" : null,
                 "postFuncBody" : null
-              }, {
-                "name" : "sim_iccid",
-                "type" : "attribute",
-                "label" : "ICCID",
-                "color" : "#ffc107",
-                "settings" : { },
-                "_hash" : 0.8208145831113183,
-                "aggregationType" : null,
-                "units" : null,
-                "decimals" : null,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
-              } ],
-              "alarmFilterConfig" : {
-                "statusList" : [ "ACTIVE" ]
-              }
-            } ],
-            "timewindow" : {
-              "displayValue" : "",
-              "selectedTab" : 0,
-              "realtime" : {
-                "realtimeType" : 1,
-                "interval" : 1000,
-                "timewindowMs" : 60000,
-                "quickInterval" : "CURRENT_DAY",
-                "hideInterval" : false,
-                "hideLastInterval" : false,
-                "hideQuickInterval" : false
-              },
-              "history" : {
-                "historyType" : 0,
-                "interval" : 1000,
-                "timewindowMs" : 60000,
-                "fixedTimewindow" : {
-                  "startTimeMs" : 1742892786273,
-                  "endTimeMs" : 1742979186273
-                },
-                "quickInterval" : "CURRENT_DAY",
-                "hideInterval" : false,
-                "hideLastInterval" : false,
-                "hideFixedInterval" : false,
-                "hideQuickInterval" : false
-              },
-              "aggregation" : {
-                "type" : "AVG",
-                "limit" : 25000
-              }
-            },
-            "showTitle" : true,
-            "backgroundColor" : "#fff",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "8px",
-            "settings" : { },
-            "title" : "Netzinformationen",
-            "decimals" : null,
-            "useDashboardTimewindow" : true,
-            "displayTimewindow" : true,
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "widgetCss" : "",
-            "titleStyle" : {
-              "fontSize" : "16px",
-              "fontWeight" : 400
-            },
-            "pageSize" : 1024,
-            "noDataDisplayMessage" : ""
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "5eb52cab-fe74-954e-6d65-ea9ac37246dd"
-        },
-        "b011a82e-69d5-0b63-6950-fdc68528aeb9" : {
-          "typeFullFqn" : "tenant.attribute_card",
-          "type" : "latest",
-          "sizeX" : 7.5,
-          "sizeY" : 3,
-          "config" : {
-            "datasources" : [ {
-              "type" : "entity",
-              "name" : "",
-              "entityAliasId" : "825383c7-21e4-c2df-6a6b-4a2bddb1d05a",
-              "dataKeys" : [ {
-                "name" : "data_carrier_type",
-                "type" : "attribute",
-                "label" : "data_carrier_type",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.476109839551369
-              }, {
-                "name" : "sim_status",
-                "type" : "attribute",
-                "label" : "sim_status",
-                "color" : "#4caf50",
-                "settings" : { },
-                "_hash" : 0.322446577799854
-              }, {
-                "name" : "network_link_state",
-                "type" : "attribute",
-                "label" : "network_link_state",
-                "color" : "#f44336",
-                "settings" : { },
-                "_hash" : 0.13912487446972777
-              }, {
-                "name" : "sim_iccid",
-                "type" : "attribute",
-                "label" : "sim_iccid",
-                "color" : "#ffc107",
-                "settings" : { },
-                "_hash" : 0.041844425548358544
-              }, {
-                "name" : "operator",
-                "type" : "attribute",
-                "label" : "operator",
-                "color" : "#607d8b",
-                "settings" : { },
-                "_hash" : 0.016506812102748514
-              }, {
-                "name" : "provider",
-                "type" : "attribute",
-                "label" : "provider",
-                "color" : "#9c27b0",
-                "settings" : { },
-                "_hash" : 0.9846708712229744
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1956,10 +1868,22 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
             "settings" : { },
-            "title" : "Attribute Card",
+            "title" : "Mobilnetz",
             "decimals" : null,
             "useDashboardTimewindow" : true,
-            "displayTimewindow" : true
+            "displayTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,
@@ -2053,17 +1977,11 @@
                   "row" : 0,
                   "col" : 16
                 },
-                "5eb52cab-fe74-954e-6d65-ea9ac37246dd" : {
-                  "sizeX" : 8,
-                  "sizeY" : 4,
-                  "row" : 11,
-                  "col" : 0
-                },
                 "b011a82e-69d5-0b63-6950-fdc68528aeb9" : {
                   "sizeX" : 8,
                   "sizeY" : 6,
                   "row" : 11,
-                  "col" : 9
+                  "col" : 0
                 }
               },
               "gridSettings" : {
