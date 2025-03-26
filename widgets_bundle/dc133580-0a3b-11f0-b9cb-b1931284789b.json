@@ -14,7 +14,7 @@
     "scada" : false,
     "title" : "Matthias Widgets"
   },
-  "fqns" : [ "single_switch2" ],
+  "fqns" : [ "single_switch2", "attribute_card" ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
