@@ -3159,7 +3159,7 @@
                 "type" : "outlined",
                 "showLabel" : false,
                 "label" : "Button",
-                "showIcon" : true,
+                "showIcon" : false,
                 "icon" : "home",
                 "iconSize" : 24,
                 "iconSizeUnit" : "px",
