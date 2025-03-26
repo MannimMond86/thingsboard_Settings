@@ -1,0 +1,21 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "matthias_widgets",
+    "description" : "",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "dc133580-0a3b-11f0-b9cb-b1931284789b"
+    },
+    "image" : "",
+    "name" : "Matthias Widgets",
+    "order" : null,
+    "scada" : false,
+    "title" : "Matthias Widgets"
+  },
+  "fqns" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
