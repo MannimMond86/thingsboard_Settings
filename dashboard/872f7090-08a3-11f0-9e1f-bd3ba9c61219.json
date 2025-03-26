@@ -3411,8 +3411,8 @@
                   "sizeX" : 4,
                   "sizeY" : 3,
                   "mobileHeight" : null,
-                  "row" : 3,
-                  "col" : 6
+                  "row" : 5,
+                  "col" : 0
                 },
                 "fd0a6f34-f0ec-ab69-14f8-2bd7b3d84710" : {
                   "sizeX" : 6,
@@ -3454,8 +3454,8 @@
                 "b011a82e-69d5-0b63-6950-fdc68528aeb9" : {
                   "sizeX" : 8,
                   "sizeY" : 6,
-                  "row" : 11,
-                  "col" : 0
+                  "row" : 3,
+                  "col" : 10
                 },
                 "56eaff92-7f85-c587-6663-dd0ac63913cb" : {
                   "sizeX" : 3,
