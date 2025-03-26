@@ -1738,6 +1738,118 @@
           "row" : 0,
           "col" : 0,
           "id" : "1e19e8a2-9456-d1c7-1a5a-94eb26c95c91"
+        },
+        "5eb52cab-fe74-954e-6d65-ea9ac37246dd" : {
+          "typeFullFqn" : "system.cards.attributes_card",
+          "type" : "latest",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : "",
+              "entityAliasId" : "825383c7-21e4-c2df-6a6b-4a2bddb1d05a",
+              "dataKeys" : [ {
+                "name" : "operator",
+                "type" : "attribute",
+                "label" : "Anbieter",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.5542157708124,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "provider",
+                "type" : "attribute",
+                "label" : "Netzbetreiber",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.9476337535735664,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "network_link_state",
+                "type" : "attribute",
+                "label" : "Netzstatus",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.8042041894975218,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "sim_iccid",
+                "type" : "attribute",
+                "label" : "ICCID",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.8208145831113183,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1742892786273,
+                  "endTimeMs" : 1742979186273
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Attributes card",
+            "decimals" : null,
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "5eb52cab-fe74-954e-6d65-ea9ac37246dd"
         }
       },
       "states" : {
@@ -1826,6 +1938,12 @@
                   "sizeY" : 1,
                   "row" : 0,
                   "col" : 16
+                },
+                "5eb52cab-fe74-954e-6d65-ea9ac37246dd" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 10,
+                  "col" : 15
                 }
               },
               "gridSettings" : {
