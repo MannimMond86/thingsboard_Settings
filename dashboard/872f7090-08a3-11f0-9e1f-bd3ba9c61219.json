@@ -3716,10 +3716,10 @@
                   "col" : 21
                 },
                 "f034336f-b7c9-f252-ed45-87921e942132" : {
-                  "sizeX" : 3,
-                  "sizeY" : 3,
-                  "row" : 7,
-                  "col" : 5
+                  "sizeX" : 2,
+                  "sizeY" : 2,
+                  "row" : 3,
+                  "col" : 8
                 }
               },
               "gridSettings" : {
