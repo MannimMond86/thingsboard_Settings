@@ -14,7 +14,7 @@
     "scada" : false,
     "title" : "Signage_Controller"
   },
-  "fqns" : [ "static", "timeseries" ],
+  "fqns" : [ "static", "timeseries", "gauge2" ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
