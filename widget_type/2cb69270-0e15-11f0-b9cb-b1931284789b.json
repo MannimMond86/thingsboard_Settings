@@ -11,7 +11,7 @@
       "sizeX" : 4,
       "sizeY" : 2,
       "resources" : [ ],
-      "templateHtml" : "<div class=\"samsung-menu-widget\">\n  <!-- Left Sidebar -->\n  <div class=\"sidebar\">\n   \n  </div>\n\n  <!-- Right Main Content: Render only if selectedSection exists -->\n  <div class=\"menu-content\" ng-if=\"selectedSection\">\n    \n   \n  </div>\n</div>\n",
+      "templateHtml" : "<div class=\"samsung-menu-widget\">\n  <!-- Left Sidebar -->\n  <div class=\"sidebar\">\n   \n  </div>\n\n  <!-- Right Main Content: Render only if selectedSection exists -->\n  <div class=\"menu-content\" ng-if=\"selectedSection\">\n    \n  </div>\n</div>\n",
       "templateCss" : ".samsung-menu-widget {\n    display: flex;\n    height: 100%;\n    width: 100%;\n    font-family: Arial, sans-serif;\n}\n\n/* Sidebar styling */\n.sidebar {\n    background-color: #1e3a5f;\n    /* Dark blue background */\n    width: 25%;\n    padding: 20px;\n    box-sizing: border-box;\n    color: #fff;\n}\n\n.sidebar ul {\n    list-style: none;\n    padding: 0;\n}\n\n.sidebar li {\n    padding: 10px;\n    cursor: pointer;\n    border-bottom: 1px solid rgba(255, 255, 255, 0.2);\n}\n\n\n/* Menu Content styling */\n.menu-content {\n    flex: 1;\n    background-color: #f0f8ff;\n    /* Light blue background */\n    padding: 20px;\n    box-sizing: border-box;\n}\n\n.menu-content h2 {\n    color: #1e3a5f;\n    margin-bottom: 15px;\n}\n\n.menu-item {\n    margin-bottom: 15px;\n}\n\n.menu-item label {\n    display: block;\n    margin-bottom: 5px;\n    color: #1e3a5f;\n}\n\n.menu-item input {\n    width: 100%;\n    padding: 8px;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n}",
       "controllerScript" : "",
       "settingsSchema" : "",
