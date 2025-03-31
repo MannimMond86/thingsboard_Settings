@@ -1,0 +1,21 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "signage_controller",
+    "description" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "a6149ad0-0e0c-11f0-b9cb-b1931284789b"
+    },
+    "image" : "tb-image;https://pik.de/shop/media/catalog/product/q/b/qbb-4_t07uik55big3ebsy.jpg?quality=80&fit=bounds&height=467&width=700&canvas=700:467",
+    "name" : "Signage_Controller",
+    "order" : null,
+    "scada" : false,
+    "title" : "Signage_Controller"
+  },
+  "fqns" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
