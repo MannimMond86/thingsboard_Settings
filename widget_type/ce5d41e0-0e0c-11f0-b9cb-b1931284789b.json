@@ -11,7 +11,8 @@
       "sizeX" : 7.5,
       "sizeY" : 13.5,
       "resources" : [ {
-        "url" : "https://bernii.github.io/gauge.js/dist/gauge.min.js"
+        "url" : "https://bernii.github.io/gauge.js/dist/gauge.min.js",
+        "isModule" : true
       }, {
         "url" : ""
       } ],
