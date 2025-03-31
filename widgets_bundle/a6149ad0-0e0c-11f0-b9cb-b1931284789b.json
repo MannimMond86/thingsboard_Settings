@@ -14,7 +14,7 @@
     "scada" : false,
     "title" : "Signage_Controller"
   },
-  "fqns" : [ "static", "timeseries", "gauge2" ],
+  "fqns" : [ "static", "timeseries", "gauge2", "samsung_menu_widget" ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
