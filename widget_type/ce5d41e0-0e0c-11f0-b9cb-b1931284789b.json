@@ -11,7 +11,7 @@
       "sizeX" : 7.5,
       "sizeY" : 13.5,
       "resources" : [ ],
-      "templateHtml" : "  <div class=\"flex h-full flex-1 flex-col items-stretch justify-around\">\n    <h3 style=\"text-align: center;\">My first static widget.</h3>\n    <button mat-raised-button color=\"primary\" (click)=\"showAlert()\">Click me</button>\n  </div>\n",
+      "templateHtml" : "  <div\n      class=\"flex h-full flex-1 flex-col items-stretch justify-around\">\n      <h3 style=\"text-align: center;\">My first static\n          widget.</h3>\n      <button mat-raised-button color=\"primary\"\n          (click)=\"showAlert()\">Click me</button>\n  </div>",
       "templateCss" : ".mainCard {\n\n}\n\n",
       "controllerScript" : "self.onInit = function() {\n\n    self.ctx.$scope.showAlert = function() {\n        window.alert(alertContent);  \n    };\n\n}\n",
       "settingsSchema" : "{\n    \"schema\": {\n        \"type\": \"object\",\n        \"title\": \"Settings\",\n        \"properties\": {\n            \"alertContent\": {\n                \"title\": \"Alert content\",\n                \"type\": \"string\",\n                \"default\": \"Content derived from alertContent property of widget settings.\"\n            }\n        }\n    },\n    \"form\": [\n        \"alertContent\"\n    ]\n}\n",
