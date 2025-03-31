@@ -56,10 +56,10 @@
             "main" : {
               "widgets" : {
                 "e6c14aeb-1e51-7329-f4d8-51f1fb8965f2" : {
-                  "sizeX" : 18,
+                  "sizeX" : 14,
                   "sizeY" : 8,
                   "row" : 2,
-                  "col" : 3
+                  "col" : 5
                 }
               },
               "gridSettings" : {
