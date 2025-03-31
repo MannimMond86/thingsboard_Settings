@@ -95,31 +95,31 @@
             "main" : {
               "widgets" : {
                 "e6c14aeb-1e51-7329-f4d8-51f1fb8965f2" : {
-                  "sizeX" : 14,
-                  "sizeY" : 8,
-                  "row" : 4,
-                  "col" : 6
+                  "sizeX" : 12,
+                  "sizeY" : 7,
+                  "row" : 3,
+                  "col" : 5
                 },
                 "fdb14727-6b4e-70a8-4151-6010b26717d5" : {
-                  "sizeX" : 25,
-                  "sizeY" : 4,
+                  "sizeX" : 21,
+                  "sizeY" : 3,
                   "row" : 0,
                   "col" : 0
                 }
               },
               "gridSettings" : {
                 "layoutType" : "default",
-                "backgroundColor" : "#eeeeee",
-                "columns" : 24,
-                "margin" : 10,
-                "outerMargin" : true,
+                "backgroundColor" : "#10253F",
+                "columns" : 20,
+                "margin" : 8,
+                "outerMargin" : false,
                 "backgroundSizeMode" : "100%",
-                "minColumns" : 24,
+                "minColumns" : 16,
                 "viewFormat" : "grid",
-                "autoFillHeight" : false,
+                "autoFillHeight" : true,
                 "rowHeight" : 70,
                 "backgroundImageUrl" : null,
-                "mobileAutoFillHeight" : false,
+                "mobileAutoFillHeight" : true,
                 "mobileRowHeight" : 70
               }
             }
@@ -171,8 +171,8 @@
         "showDashboardExport" : false,
         "toolbarAlwaysOpen" : false,
         "titleColor" : "rgba(0,0,0,0.870588)",
-        "showDashboardLogo" : false,
-        "dashboardLogoUrl" : null,
+        "showDashboardLogo" : true,
+        "dashboardLogoUrl" : "tb-image;https://pos-experience.de/wp-content/uploads/2023/02/cropped-pos_experice_logo_200a-200x59.png",
         "hideToolbar" : false,
         "showFilters" : false,
         "showUpdateDashboardImage" : true,
