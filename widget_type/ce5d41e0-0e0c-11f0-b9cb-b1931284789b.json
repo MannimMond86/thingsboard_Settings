@@ -12,7 +12,7 @@
       "sizeY" : 13.5,
       "resources" : [ ],
       "templateHtml" : "  <div class=\"flex h-full flex-1 flex-col items-stretch justify-around\">\n    <h3 style=\"text-align: center;\">My first static widget.</h3>\n    <button mat-raised-button color=\"primary\" (click)=\"showAlert()\">Click me</button>\n  </div>\n",
-      "templateCss" : ".mainCard {\n    width: 400px;\n    height: 900px;\n}\n\n.example-card {\n  max-width: 400px;\n}\n\n.example-header-image {\n  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');\n  background-size: cover;\n}\n",
+      "templateCss" : ".mainCard {\n\n}\n\n",
       "controllerScript" : "self.onInit = function() {\n\n    self.ctx.$scope.showAlert = function() {\n        window.alert(alertContent);  \n    };\n\n}\n",
       "settingsSchema" : "{\n    \"schema\": {\n        \"type\": \"object\",\n        \"title\": \"Settings\",\n        \"properties\": {\n            \"alertContent\": {\n                \"title\": \"Alert content\",\n                \"type\": \"string\",\n                \"default\": \"Content derived from alertContent property of widget settings.\"\n            }\n        }\n    },\n    \"form\": [\n        \"alertContent\"\n    ]\n}\n",
       "dataKeySettingsSchema" : "",
