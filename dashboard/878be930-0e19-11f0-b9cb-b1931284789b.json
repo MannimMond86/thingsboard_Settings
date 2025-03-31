@@ -8,60 +8,6 @@
     "configuration" : {
       "description" : "",
       "widgets" : {
-        "a43420af-3ba1-549f-e1b9-397bc51d9289" : {
-          "typeFullFqn" : "tenant.samsung_menu_widget",
-          "type" : "rpc",
-          "sizeX" : 4,
-          "sizeY" : 2,
-          "config" : {
-            "targetDeviceAliases" : [ ],
-            "showTitle" : true,
-            "backgroundColor" : "#fff",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0px",
-            "settings" : {
-              "parseGpioStatusFunction" : "return body[pin] === true;",
-              "gpioStatusChangeRequest" : {
-                "method" : "setGpioStatus",
-                "paramsBody" : "{\n   \"pin\": \"{$pin}\",\n   \"enabled\": \"{$enabled}\"\n}"
-              },
-              "requestTimeout" : 500,
-              "switchPanelBackgroundColor" : "#b71c1c",
-              "gpioStatusRequest" : {
-                "method" : "getGpioStatus",
-                "paramsBody" : "{}"
-              },
-              "gpioList" : [ {
-                "pin" : 1,
-                "label" : "GPIO 1",
-                "row" : 0,
-                "col" : 0,
-                "_uniqueKey" : 0
-              }, {
-                "pin" : 2,
-                "label" : "GPIO 2",
-                "row" : 0,
-                "col" : 1,
-                "_uniqueKey" : 1
-              }, {
-                "pin" : 3,
-                "label" : "GPIO 3",
-                "row" : 1,
-                "col" : 0,
-                "_uniqueKey" : 2
-              } ]
-            },
-            "title" : "Basic GPIO Control",
-            "targetDevice" : {
-              "type" : "device",
-              "deviceId" : "97402240-04c0-11f0-9e1f-bd3ba9c61219"
-            },
-            "datasources" : [ ]
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "a43420af-3ba1-549f-e1b9-397bc51d9289"
-        },
         "b9e16b32-aa7d-2ec1-5523-e88538a901b4" : {
           "typeFullFqn" : "system.test",
           "type" : "static",
@@ -460,23 +406,17 @@
           "layouts" : {
             "main" : {
               "widgets" : {
-                "a43420af-3ba1-549f-e1b9-397bc51d9289" : {
+                "b9e16b32-aa7d-2ec1-5523-e88538a901b4" : {
                   "sizeX" : 24,
                   "sizeY" : 6,
-                  "row" : 0,
-                  "col" : 0
-                },
-                "b9e16b32-aa7d-2ec1-5523-e88538a901b4" : {
-                  "sizeX" : 8,
-                  "sizeY" : 5,
                   "mobileHeight" : null,
-                  "row" : 6,
+                  "row" : 5,
                   "col" : 0
                 },
                 "1a3a18a0-2111-7154-3120-4d69272c4168" : {
-                  "sizeX" : 20,
+                  "sizeX" : 24,
                   "sizeY" : 3,
-                  "row" : 11,
+                  "row" : 2,
                   "col" : 0
                 }
               },
