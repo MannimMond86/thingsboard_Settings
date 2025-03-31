@@ -46,6 +46,45 @@
           "row" : 0,
           "col" : 0,
           "id" : "e6c14aeb-1e51-7329-f4d8-51f1fb8965f2"
+        },
+        "a8d3e6ec-3554-6d84-9171-f69ba89091de" : {
+          "typeFullFqn" : "system.nav_bar_samsung2",
+          "type" : "static",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "static",
+              "name" : "function",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.15479322438769105,
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "cardHtml" : "<div class='card'>HTML code here</div>",
+              "cardCss" : ".card {\n    font-weight: bold;\n    font-size: 32px;\n    color: #999;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}"
+            },
+            "title" : "nav_bar_samsung",
+            "dropShadow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "a8d3e6ec-3554-6d84-9171-f69ba89091de"
         }
       },
       "states" : {
@@ -58,8 +97,14 @@
                 "e6c14aeb-1e51-7329-f4d8-51f1fb8965f2" : {
                   "sizeX" : 14,
                   "sizeY" : 8,
-                  "row" : 2,
-                  "col" : 5
+                  "row" : 7,
+                  "col" : 4
+                },
+                "a8d3e6ec-3554-6d84-9171-f69ba89091de" : {
+                  "sizeX" : 24,
+                  "sizeY" : 7,
+                  "row" : 0,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
