@@ -17,7 +17,7 @@
       } ],
       "templateHtml" : "  <canvas id=\"my-gauge\"></canvas>\n",
       "templateCss" : ".mainCard {\n\n}\n\n",
-      "controllerScript" : "self.onInit = function() {\n\n    self.ctx.$scope.showAlert = function() {\n        window.alert(alertContent);  \n    };\n\n}\n",
+      "controllerScript" : "var canvasElement;\nvar gauge;\n\nself.onInit = function() {\n    canvasElement = $('#my-gauge', self.ctx.$container)[0];\n    gauge = new Gauge(canvasElement);\n    gauge.minValue = -1000; \n    gauge.maxValue = 1000; \n    gauge.animationSpeed = 16; \n    self.onResize();\n}\n\nself.onResize = function() {\n    canvasElement.width = self.ctx.width;\n    canvasElement.height = self.ctx.height;\n    gauge.update(true);\n    gauge.render();\n}\n\nself.onDataUpdated = function() {\n    if (self.ctx.defaultSubscription.data[0].data.length) {\n        var value = self.ctx.defaultSubscription.data[0].data[0][1];\n        gauge.set(value);\n    }\n}\n",
       "settingsSchema" : "{\n    \"schema\": {\n        \"type\": \"object\",\n        \"title\": \"Settings\",\n        \"properties\": {\n            \"alertContent\": {\n                \"title\": \"Alert content\",\n                \"type\": \"string\",\n                \"default\": \"Content derived from alertContent property of widget settings.\"\n            }\n        }\n    },\n    \"form\": [\n        \"alertContent\"\n    ]\n}\n",
       "dataKeySettingsSchema" : "",
       "settingsDirective" : "tb-html-card-widget-settings",
