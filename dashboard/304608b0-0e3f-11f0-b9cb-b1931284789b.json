@@ -112,7 +112,7 @@
                 "backgroundColor" : "#10253F",
                 "columns" : 20,
                 "margin" : 8,
-                "outerMargin" : false,
+                "outerMargin" : true,
                 "backgroundSizeMode" : "100%",
                 "minColumns" : 16,
                 "viewFormat" : "grid",
