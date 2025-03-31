@@ -47,8 +47,8 @@
           "col" : 0,
           "id" : "e6c14aeb-1e51-7329-f4d8-51f1fb8965f2"
         },
-        "a8d3e6ec-3554-6d84-9171-f69ba89091de" : {
-          "typeFullFqn" : "system.nav_bar_samsung2",
+        "fdb14727-6b4e-70a8-4151-6010b26717d5" : {
+          "typeFullFqn" : "system.nav_bar_samsung",
           "type" : "static",
           "sizeX" : 7.5,
           "sizeY" : 3,
@@ -79,12 +79,12 @@
               "cardHtml" : "<div class='card'>HTML code here</div>",
               "cardCss" : ".card {\n    font-weight: bold;\n    font-size: 32px;\n    color: #999;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}"
             },
-            "title" : "nav_bar_samsung",
+            "title" : "HTML Card",
             "dropShadow" : true
           },
           "row" : 0,
           "col" : 0,
-          "id" : "a8d3e6ec-3554-6d84-9171-f69ba89091de"
+          "id" : "fdb14727-6b4e-70a8-4151-6010b26717d5"
         }
       },
       "states" : {
@@ -100,8 +100,8 @@
                   "row" : 7,
                   "col" : 4
                 },
-                "a8d3e6ec-3554-6d84-9171-f69ba89091de" : {
-                  "sizeX" : 24,
+                "fdb14727-6b4e-70a8-4151-6010b26717d5" : {
+                  "sizeX" : 25,
                   "sizeY" : 7,
                   "row" : 0,
                   "col" : 0
