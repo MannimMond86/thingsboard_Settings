@@ -113,7 +113,14 @@
                 "columns" : 24,
                 "margin" : 10,
                 "outerMargin" : true,
-                "backgroundSizeMode" : "100%"
+                "backgroundSizeMode" : "100%",
+                "minColumns" : 24,
+                "viewFormat" : "grid",
+                "autoFillHeight" : false,
+                "rowHeight" : 70,
+                "backgroundImageUrl" : null,
+                "mobileAutoFillHeight" : false,
+                "mobileRowHeight" : 70
               }
             }
           }
@@ -159,10 +166,17 @@
         "stateControllerId" : "entity",
         "showTitle" : false,
         "showDashboardsSelect" : true,
-        "showEntitiesSelect" : true,
-        "showDashboardTimewindow" : true,
-        "showDashboardExport" : true,
-        "toolbarAlwaysOpen" : true
+        "showEntitiesSelect" : false,
+        "showDashboardTimewindow" : false,
+        "showDashboardExport" : false,
+        "toolbarAlwaysOpen" : false,
+        "titleColor" : "rgba(0,0,0,0.870588)",
+        "showDashboardLogo" : false,
+        "dashboardLogoUrl" : null,
+        "hideToolbar" : false,
+        "showFilters" : false,
+        "showUpdateDashboardImage" : true,
+        "dashboardCss" : ""
       }
     },
     "name" : "test_menu",
