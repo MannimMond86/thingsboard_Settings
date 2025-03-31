@@ -172,7 +172,7 @@
         "toolbarAlwaysOpen" : false,
         "titleColor" : "rgba(0,0,0,0.870588)",
         "showDashboardLogo" : true,
-        "dashboardLogoUrl" : "tb-image;https://pos-experience.de/wp-content/uploads/2023/02/cropped-pos_experice_logo_200a-200x59.png",
+        "dashboardLogoUrl" : "tb-image;/api/images/tenant/test_menu_dashboard_logo.jpg",
         "hideToolbar" : false,
         "showFilters" : false,
         "showUpdateDashboardImage" : true,
