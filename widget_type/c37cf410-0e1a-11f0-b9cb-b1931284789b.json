@@ -1,0 +1,34 @@
+{
+  "entityType" : "WIDGET_TYPE",
+  "entity" : {
+    "fqn" : "menu_blue",
+    "name" : "menu_blue",
+    "deprecated" : false,
+    "image" : null,
+    "description" : null,
+    "descriptor" : {
+      "type" : "static",
+      "sizeX" : 7.5,
+      "sizeY" : 3,
+      "resources" : [ ],
+      "templateHtml" : "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Samsung Signage Menu</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n\n  <!-- Sidebar Menu -->\n  <div class=\"sidebar\">\n    <ul>\n      <li class=\"menu-item\">\n        <a href=\"#\">Home</a>\n        <ul class=\"sub-menu\">\n          <li><a href=\"#\">Sub Home 1</a></li>\n          <li><a href=\"#\">Sub Home 2</a></li>\n        </ul>\n      </li>\n      <li class=\"menu-item\">\n        <a href=\"#\">Services</a>\n        <ul class=\"sub-menu\">\n          <li><a href=\"#\">Sub Service 1</a></li>\n          <li><a href=\"#\">Sub Service 2</a></li>\n        </ul>\n      </li>\n      <li class=\"menu-item\">\n        <a href=\"#\">Contact</a>\n        <ul class=\"sub-menu\">\n          <li><a href=\"#\">Sub Contact 1</a></li>\n          <li><a href=\"#\">Sub Contact 2</a></li>\n        </ul>\n      </li>\n    </ul>\n  </div>\n\n  <!-- Main Content -->\n  <div class=\"main-content\">\n    <h1>Welcome to the Samsung Signage Menu</h1>\n    <p>This is a simple representation of a signage menu using HTML, CSS, and JavaScript.</p>\n  </div>\n\n  <script src=\"scripts.js\"></script>\n</body>\n</html>\n",
+      "templateCss" : "/* General Styles */\nbody {\n  font-family: Arial, sans-serif;\n  margin: 0;\n  padding: 0;\n}\n\n.main-content {\n  padding: 20px;\n}\n\n/* Sidebar Styles */\n.sidebar {\n  height: 100%;\n  width: 0;\n  position: fixed;\n  top: 0;\n  left: 0;\n  background-color: #333;\n  overflow-x: hidden;\n  transition: 0.3s;\n  padding-top: 60px;\n}\n\n.sidebar ul {\n  list-style-type: none;\n  padding: 0;\n}\n\n.sidebar ul li a {\n  padding: 8px 8px 8px 32px;\n  text-decoration: none;\n  font-size: 25px;\n  color: #818181;\n  display: block;\n  transition: 0.3s;\n}\n\n.sidebar ul li a:hover {\n  color: #f1f1f1;\n}\n\n.sidebar .close-btn {\n  position: absolute;\n  top: 0;\n  right: 25px;\n  font-size: 36px;\n  color: #818181;\n  background: none;\n  border: none;\n  cursor: pointer;\n}\n\n.open-btn {\n  font-size: 20px;\n  cursor: pointer;\n  background-color: #333;\n  color: white;\n  border: none;\n  padding: 10px 20px;\n}\n\n.open-btn:hover {\n  background-color: #444;\n}\n",
+      "controllerScript" : "function toggleSidebar() {\n  const sidebar = document.getElementById('sidebar');\n  if (sidebar.style.width === '250px') {\n    sidebar.style.width = '0';\n  } else {\n    sidebar.style.width = '250px';\n  }\n}\n",
+      "settingsSchema" : "",
+      "dataKeySettingsSchema" : "",
+      "settingsDirective" : "tb-html-card-widget-settings",
+      "defaultConfig" : "{\"datasources\":[{\"type\":\"static\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":false,\"backgroundColor\":\"rgb(255, 255, 255)\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{\"cardHtml\":\"<div class='card'>HTML code here</div>\",\"cardCss\":\".card {\\n    font-weight: bold;\\n    font-size: 32px;\\n    color: #999;\\n    width: 100%;\\n    height: 100%;\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n}\"},\"title\":\"menu_blue\",\"dropShadow\":true}"
+    },
+    "externalId" : null,
+    "resources" : null,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "c37cf410-0e1a-11f0-b9cb-b1931284789b"
+    },
+    "scada" : false,
+    "tags" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
