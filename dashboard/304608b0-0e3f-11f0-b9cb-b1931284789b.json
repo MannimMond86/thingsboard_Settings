@@ -97,12 +97,12 @@
                 "e6c14aeb-1e51-7329-f4d8-51f1fb8965f2" : {
                   "sizeX" : 14,
                   "sizeY" : 8,
-                  "row" : 7,
-                  "col" : 4
+                  "row" : 4,
+                  "col" : 6
                 },
                 "fdb14727-6b4e-70a8-4151-6010b26717d5" : {
                   "sizeX" : 25,
-                  "sizeY" : 7,
+                  "sizeY" : 4,
                   "row" : 0,
                   "col" : 0
                 }
