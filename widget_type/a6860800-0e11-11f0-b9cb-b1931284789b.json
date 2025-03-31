@@ -1,0 +1,35 @@
+{
+  "entityType" : "WIDGET_TYPE",
+  "entity" : {
+    "fqn" : "gauge",
+    "name" : "gauge",
+    "deprecated" : false,
+    "image" : null,
+    "description" : null,
+    "descriptor" : {
+      "type" : "latest",
+      "sizeX" : 7.5,
+      "sizeY" : 3,
+      "resources" : [ {
+        "url" : "https://bernii.github.io/gauge.js/dist/gauge.min.js"
+      } ],
+      "templateHtml" : "  <canvas id=\"my-gauge\"></canvas>\n",
+      "templateCss" : "#container {\n    overflow: auto;\n}\n\n.tbDatasource-container {\n    margin: 5px;\n    padding: 8px;\n}\n\n.tbDatasource-title {\n    font-size: 1.200rem;\n    font-weight: 500;\n    padding-bottom: 10px;\n}\n\n.tbDatasource-table {\n    width: 100%;\n    box-shadow: 0 0 10px #ccc;\n    border-collapse: collapse;\n    white-space: nowrap;\n    font-size: 1.000rem;\n    color: #757575;\n}\n\n.tbDatasource-table td {\n    position: relative;\n    border-top: 1px solid rgba(0, 0, 0, 0.12);\n    border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n    padding: 0px 18px;\n    box-sizing: border-box;\n}",
+      "controllerScript" : "var canvasElement;\nvar gauge;\n\nself.onInit = function() {\n    canvasElement = $('#my-gauge', self.ctx.$container)[0];\n    gauge = new Gauge(canvasElement);\n    gauge.minValue = -1000; \n    gauge.maxValue = 1000; \n    gauge.animationSpeed = 16; \n    self.onResize();\n}\n\nself.onResize = function() {\n    canvasElement.width = self.ctx.width;\n    canvasElement.height = self.ctx.height;\n    gauge.update(true);\n    gauge.render();\n}\n\nself.onDataUpdated = function() {\n    if (self.ctx.defaultSubscription.data[0].data.length) {\n        var value = self.ctx.defaultSubscription.data[0].data[0][1];\n        gauge.set(value);\n    }\n}\n",
+      "settingsSchema" : "{}",
+      "dataKeySettingsSchema" : "{}\n",
+      "defaultConfig" : "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"gauge\",\"decimals\":null}"
+    },
+    "externalId" : null,
+    "resources" : null,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "a6860800-0e11-11f0-b9cb-b1931284789b"
+    },
+    "scada" : false,
+    "tags" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
