@@ -408,15 +408,15 @@
               "widgets" : {
                 "b9e16b32-aa7d-2ec1-5523-e88538a901b4" : {
                   "sizeX" : 24,
-                  "sizeY" : 6,
+                  "sizeY" : 9,
                   "mobileHeight" : null,
-                  "row" : 5,
+                  "row" : 3,
                   "col" : 0
                 },
                 "1a3a18a0-2111-7154-3120-4d69272c4168" : {
                   "sizeX" : 24,
                   "sizeY" : 3,
-                  "row" : 2,
+                  "row" : 0,
                   "col" : 0
                 }
               },
