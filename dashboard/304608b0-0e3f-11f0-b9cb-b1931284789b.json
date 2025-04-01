@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "title" : "test_menu",
+    "title" : "Dekora Signage Controller",
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
@@ -179,7 +179,7 @@
         "dashboardCss" : ":host {\n  background-color: blue;\n}"
       }
     },
-    "name" : "test_menu",
+    "name" : "Dekora Signage Controller",
     "resources" : null,
     "assignedCustomers" : null,
     "externalId" : null,
