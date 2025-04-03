@@ -25,6 +25,13 @@
                 "color" : "#2196f3",
                 "settings" : { },
                 "_hash" : 0.9091469085872181
+              }, {
+                "name" : "device_temperature",
+                "type" : "timeseries",
+                "label" : "device_temperature",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.8976347655261048
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
