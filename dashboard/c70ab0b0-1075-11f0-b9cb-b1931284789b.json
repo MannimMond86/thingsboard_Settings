@@ -189,7 +189,7 @@
           "col" : 0,
           "id" : "e3d3657f-aa0e-80fe-a2e1-b63e3cfcb93c"
         },
-        "38fec069-2ab2-00d5-5d02-468605867e5f" : {
+        "e9a732e6-a79c-6d2e-a0f1-7c6f2c3ec083" : {
           "typeFullFqn" : "tenant.test",
           "type" : "latest",
           "sizeX" : 7.5,
@@ -200,12 +200,131 @@
               "name" : "",
               "deviceId" : "46741a60-0597-11f0-9e1f-bd3ba9c61219",
               "dataKeys" : [ {
+                "name" : "RSSI",
+                "type" : "timeseries",
+                "label" : "RSSI",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.5887695313810912
+              }, {
+                "name" : "sim_status",
+                "type" : "attribute",
+                "label" : "sim_status",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.5125715486881519
+              }, {
+                "name" : "RSSI",
+                "type" : "timeseries",
+                "label" : "RSSI 2",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.9624260110262317
+              }, {
+                "name" : "cpu_usage",
+                "type" : "timeseries",
+                "label" : "cpu_usage",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.6970962721125573
+              }, {
+                "name" : "data_usage_total_day",
+                "type" : "timeseries",
+                "label" : "data_usage_total_day",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.24017383200776998
+              }, {
+                "name" : "data_usage_total_month",
+                "type" : "timeseries",
+                "label" : "data_usage_total_month",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.48575949078453506
+              }, {
+                "name" : "data_usage_total_week",
+                "type" : "timeseries",
+                "label" : "data_usage_total_week",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.2542164326637757
+              }, {
                 "name" : "device_temperature",
                 "type" : "timeseries",
                 "label" : "device_temperature",
-                "color" : "#2196f3",
+                "color" : "#3f51b5",
                 "settings" : { },
-                "_hash" : 0.11535540739688033
+                "_hash" : 0.20650446860880756
+              }, {
+                "name" : "active",
+                "type" : "attribute",
+                "label" : "active",
+                "color" : "#e91e63",
+                "settings" : { },
+                "_hash" : 0.7606664558154361
+              }, {
+                "name" : "uptime",
+                "type" : "timeseries",
+                "label" : "uptime",
+                "color" : "#ffeb3b",
+                "settings" : { },
+                "_hash" : 0.9761791301442058
+              }, {
+                "name" : "operator",
+                "type" : "attribute",
+                "label" : "operator",
+                "color" : "#03a9f4",
+                "settings" : { },
+                "_hash" : 0.6108916584609123
+              }, {
+                "name" : "provider",
+                "type" : "attribute",
+                "label" : "provider",
+                "color" : "#ff9800",
+                "settings" : { },
+                "_hash" : 0.6092844002409399
+              }, {
+                "name" : "serial_number",
+                "type" : "attribute",
+                "label" : "serial_number",
+                "color" : "#673ab7",
+                "settings" : { },
+                "_hash" : 0.7443976071840421
+              }, {
+                "name" : "name",
+                "type" : "entityField",
+                "label" : "Name",
+                "color" : "#cddc39",
+                "settings" : { },
+                "_hash" : 0.9246647105830554
+              }, {
+                "name" : "type",
+                "type" : "entityField",
+                "label" : "Type",
+                "color" : "#009688",
+                "settings" : { },
+                "_hash" : 0.4196988611207624
+              }, {
+                "name" : "label",
+                "type" : "entityField",
+                "label" : "Label",
+                "color" : "#795548",
+                "settings" : { },
+                "_hash" : 0.43231787925797316
+              }, {
+                "name" : "usb0_ip",
+                "type" : "attribute",
+                "label" : "usb0_ip",
+                "color" : "#00bcd4",
+                "settings" : { },
+                "_hash" : 0.9218410840744873
+              }, {
+                "name" : "mac_address",
+                "type" : "attribute",
+                "label" : "mac_address",
+                "color" : "#ff5722",
+                "settings" : { },
+                "_hash" : 0.7389688754864665
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -228,8 +347,8 @@
                 "interval" : 1000,
                 "timewindowMs" : 60000,
                 "fixedTimewindow" : {
-                  "startTimeMs" : 1743607187380,
-                  "endTimeMs" : 1743693587380
+                  "startTimeMs" : 1743607715172,
+                  "endTimeMs" : 1743694115172
                 },
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
@@ -254,7 +373,7 @@
           },
           "row" : 0,
           "col" : 0,
-          "id" : "38fec069-2ab2-00d5-5d02-468605867e5f"
+          "id" : "e9a732e6-a79c-6d2e-a0f1-7c6f2c3ec083"
         }
       },
       "states" : {
@@ -272,14 +391,14 @@
                 },
                 "e3d3657f-aa0e-80fe-a2e1-b63e3cfcb93c" : {
                   "sizeX" : 16,
-                  "sizeY" : 9,
+                  "sizeY" : 7,
                   "row" : 0,
                   "col" : 8
                 },
-                "38fec069-2ab2-00d5-5d02-468605867e5f" : {
+                "e9a732e6-a79c-6d2e-a0f1-7c6f2c3ec083" : {
                   "sizeX" : 24,
-                  "sizeY" : 11,
-                  "row" : 9,
+                  "sizeY" : 7,
+                  "row" : 7,
                   "col" : 0
                 }
               },
