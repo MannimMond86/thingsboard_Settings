@@ -137,7 +137,7 @@
       "entityAliases" : {
         "56f22e61-a176-1a57-31b4-8df5f26cc6a0" : {
           "id" : "56f22e61-a176-1a57-31b4-8df5f26cc6a0",
-          "alias" : "device",
+          "alias" : "Device",
           "filter" : {
             "type" : "singleEntity",
             "resolveMultiple" : false,
