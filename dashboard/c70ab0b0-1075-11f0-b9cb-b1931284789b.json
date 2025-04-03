@@ -109,9 +109,22 @@
             "padding" : "8px",
             "settings" : { },
             "title" : "Attributes card",
-            "decimals" : null,
+            "decimals" : 1,
             "useDashboardTimewindow" : true,
-            "displayTimewindow" : true
+            "displayTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "pageSize" : 1024,
+            "units" : null,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,
