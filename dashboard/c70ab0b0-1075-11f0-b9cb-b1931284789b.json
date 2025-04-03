@@ -24,14 +24,26 @@
                 "label" : "cpu_usage",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.9091469085872181
+                "_hash" : 0.9091469085872181,
+                "aggregationType" : "NONE",
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               }, {
                 "name" : "device_temperature",
                 "type" : "timeseries",
                 "label" : "device_temperature",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.8976347655261048
+                "_hash" : 0.8976347655261048,
+                "aggregationType" : "NONE",
+                "units" : null,
+                "decimals" : 1,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
