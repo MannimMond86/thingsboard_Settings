@@ -93,6 +93,101 @@
           "row" : 0,
           "col" : 0,
           "id" : "a7d732ff-1363-7e9a-3a3a-e13cc83741b7"
+        },
+        "e3d3657f-aa0e-80fe-a2e1-b63e3cfcb93c" : {
+          "typeFullFqn" : "tenant.device_overview_full_tailwind",
+          "type" : "latest",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "46741a60-0597-11f0-9e1f-bd3ba9c61219",
+              "dataKeys" : [ {
+                "name" : "cpu_usage",
+                "type" : "timeseries",
+                "label" : "cpu_usage",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.4619781867011199
+              }, {
+                "name" : "device_temperature",
+                "type" : "timeseries",
+                "label" : "device_temperature",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.09827308684183955
+              }, {
+                "name" : "flash_usage",
+                "type" : "timeseries",
+                "label" : "flash_usage",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.6949009250986782
+              }, {
+                "name" : "ram_usage",
+                "type" : "timeseries",
+                "label" : "ram_usage",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.6225610334035714
+              }, {
+                "name" : "firmware",
+                "type" : "attribute",
+                "label" : "firmware",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.7545955854526771
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1743605772685,
+                  "endTimeMs" : 1743692172685
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Attributes card",
+            "decimals" : null,
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "e3d3657f-aa0e-80fe-a2e1-b63e3cfcb93c"
         }
       },
       "states" : {
@@ -106,6 +201,12 @@
                   "sizeX" : 24,
                   "sizeY" : 7,
                   "row" : 1,
+                  "col" : 0
+                },
+                "e3d3657f-aa0e-80fe-a2e1-b63e3cfcb93c" : {
+                  "sizeX" : 24,
+                  "sizeY" : 9,
+                  "row" : 8,
                   "col" : 0
                 }
               },
