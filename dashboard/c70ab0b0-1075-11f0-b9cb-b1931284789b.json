@@ -31,19 +31,6 @@
                 "funcBody" : null,
                 "usePostProcessing" : null,
                 "postFuncBody" : null
-              }, {
-                "name" : "cpu_usage",
-                "type" : "timeseries",
-                "label" : "cpu_usage",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.9091469085872181,
-                "aggregationType" : "NONE",
-                "units" : null,
-                "decimals" : 2,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
