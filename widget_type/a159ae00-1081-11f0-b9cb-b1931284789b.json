@@ -2,7 +2,7 @@
   "entityType" : "WIDGET_TYPE",
   "entity" : {
     "fqn" : "device_overview_tailwind_actual_value",
-    "name" : "device_overview_tailwind_actual_value",
+    "name" : "device_temp&cpu_tailwind_actual_value",
     "deprecated" : false,
     "image" : null,
     "description" : null,
