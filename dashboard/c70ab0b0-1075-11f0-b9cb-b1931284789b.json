@@ -122,7 +122,20 @@
           }
         }
       },
-      "entityAliases" : { },
+      "entityAliases" : {
+        "56f22e61-a176-1a57-31b4-8df5f26cc6a0" : {
+          "id" : "56f22e61-a176-1a57-31b4-8df5f26cc6a0",
+          "alias" : "device",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "46741a60-0597-11f0-9e1f-bd3ba9c61219"
+            }
+          }
+        }
+      },
       "filters" : { },
       "timewindow" : {
         "displayValue" : "",
