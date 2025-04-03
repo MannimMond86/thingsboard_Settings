@@ -2,7 +2,7 @@
   "entityType" : "WIDGET_TYPE",
   "entity" : {
     "fqn" : "test",
-    "name" : "test",
+    "name" : "teltonik_device_overview",
     "deprecated" : false,
     "image" : null,
     "description" : null,
