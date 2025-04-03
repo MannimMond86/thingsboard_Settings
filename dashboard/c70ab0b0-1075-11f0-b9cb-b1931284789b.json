@@ -265,21 +265,21 @@
             "main" : {
               "widgets" : {
                 "a7d732ff-1363-7e9a-3a3a-e13cc83741b7" : {
-                  "sizeX" : 24,
-                  "sizeY" : 7,
-                  "row" : 1,
+                  "sizeX" : 8,
+                  "sizeY" : 6,
+                  "row" : 0,
                   "col" : 0
                 },
                 "e3d3657f-aa0e-80fe-a2e1-b63e3cfcb93c" : {
-                  "sizeX" : 24,
+                  "sizeX" : 16,
                   "sizeY" : 9,
-                  "row" : 8,
-                  "col" : 0
+                  "row" : 0,
+                  "col" : 8
                 },
                 "38fec069-2ab2-00d5-5d02-468605867e5f" : {
                   "sizeX" : 24,
-                  "sizeY" : 3,
-                  "row" : 17,
+                  "sizeY" : 11,
+                  "row" : 9,
                   "col" : 0
                 }
               },
