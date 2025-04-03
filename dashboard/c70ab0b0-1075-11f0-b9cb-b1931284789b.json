@@ -19,12 +19,12 @@
               "name" : "",
               "deviceId" : "46741a60-0597-11f0-9e1f-bd3ba9c61219",
               "dataKeys" : [ {
-                "name" : "device_temperature",
+                "name" : "cpu_usage",
                 "type" : "timeseries",
-                "label" : "device_temperature",
+                "label" : "cpu_usage",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.12681138159745986
+                "_hash" : 0.9091469085872181
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
