@@ -39,6 +39,34 @@
                 "color" : "#f44336",
                 "settings" : { },
                 "_hash" : 0.6635584003762671
+              }, {
+                "name" : "imei",
+                "type" : "attribute",
+                "label" : "imei",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.8807423523030016
+              }, {
+                "name" : "serial_number",
+                "type" : "attribute",
+                "label" : "serial_number",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.68233507175479
+              }, {
+                "name" : "mac_address",
+                "type" : "attribute",
+                "label" : "mac_address",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.3313541749756328
+              }, {
+                "name" : "sim_iccid",
+                "type" : "attribute",
+                "label" : "sim_iccid",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.67876378807189
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
