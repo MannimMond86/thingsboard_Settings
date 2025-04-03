@@ -316,9 +316,12 @@
           "id" : "56f22e61-a176-1a57-31b4-8df5f26cc6a0",
           "alias" : "Device",
           "filter" : {
-            "type" : "entityType",
-            "resolveMultiple" : true,
-            "entityType" : "DEVICE"
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "46741a60-0597-11f0-9e1f-bd3ba9c61219"
+            }
           }
         }
       },
