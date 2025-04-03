@@ -46,6 +46,87 @@
           "row" : 0,
           "col" : 0,
           "id" : "97e7173c-e578-da2c-2673-7cabadb3d462"
+        },
+        "90472bba-6ab7-a6dc-6f48-45dbe2744477" : {
+          "typeFullFqn" : "tenant.device_overview_tailwind_actual_value",
+          "type" : "latest",
+          "sizeX" : 12.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "46741a60-0597-11f0-9e1f-bd3ba9c61219",
+              "dataKeys" : [ {
+                "name" : "cpu_usage",
+                "type" : "timeseries",
+                "label" : "cpu_usage",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.020109018047043348
+              }, {
+                "name" : "device_temperature",
+                "type" : "timeseries",
+                "label" : "device_temperature",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.5687006383125597
+              }, {
+                "name" : "ram_usage",
+                "type" : "timeseries",
+                "label" : "ram_usage",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.6635584003762671
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1743594665771,
+                  "endTimeMs" : 1743681065771
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Attributes card",
+            "decimals" : null,
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "90472bba-6ab7-a6dc-6f48-45dbe2744477"
         }
       },
       "states" : {
@@ -59,6 +140,12 @@
                   "sizeX" : 24,
                   "sizeY" : 6,
                   "row" : 0,
+                  "col" : 0
+                },
+                "90472bba-6ab7-a6dc-6f48-45dbe2744477" : {
+                  "sizeX" : 24,
+                  "sizeY" : 5,
+                  "row" : 6,
                   "col" : 0
                 }
               },
