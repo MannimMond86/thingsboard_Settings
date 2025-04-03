@@ -19,6 +19,13 @@
               "name" : "",
               "deviceId" : "46741a60-0597-11f0-9e1f-bd3ba9c61219",
               "dataKeys" : [ {
+                "name" : "cpu_usage",
+                "type" : "timeseries",
+                "label" : "cpu_usage",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.47772308322265067
+              }, {
                 "name" : "device_temperature",
                 "type" : "timeseries",
                 "label" : "device_temperature",
